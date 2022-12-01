@@ -1423,6 +1423,18 @@
             "trigger": "adind"
         },
         {
+            "annotation": "Unity: assert equal",
+            "contents": "TEST_ASSERT_EQUAL(${1:expected}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "ae"
+        },
+        {
+            "annotation": "Unity: assert not equal",
+            "contents": "TEST_ASSERT_NOT_EQUAL(${1:expected}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "ane"
+        },
+        {
             "annotation": "Unity: assert message",
             "contents": "TEST_ASSERT_MESSAGE(${1:condition}, \"${2:message}\");",
             "kind": "snippet",
@@ -2777,6 +2789,18 @@
             "contents": "TEST_ASSERT_DOUBLE_IS_NOT_DETERMINATE_MESSAGE(${1:actual}, \"${2:message}\");",
             "kind": "snippet",
             "trigger": "adindm"
+        },
+        {
+            "annotation": "Unity: assert equal message",
+            "contents": "TEST_ASSERT_EQUAL_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aem"
+        },
+        {
+            "annotation": "Unity: assert not equal message",
+            "contents": "TEST_ASSERT_NOT_EQUAL_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "anem"
         },
         {
             "annotation": "Unity: assert equal message",
