@@ -1,2 +1,5 @@
-# unity-completions
-Unity C Unit Test autocompletion for Sublime Text 3+
+# Unity-C
+
+Sublime Text 4 autocompletions for [Unity - Unit Testing For C (Especially Embedded Software)](http://www.throwtheswitch.org/unity).
+
+
