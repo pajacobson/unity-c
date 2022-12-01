@@ -1,0 +1,2330 @@
+{
+    "completions": [
+        {
+            "contents": "TEST_FAIL_MESSAGE(\"${1:message}\");",
+            "kind": "snippet",
+            "trigger": "fam"
+        },
+        {
+            "contents": "TEST_FAIL();",
+            "kind": "snippet",
+            "trigger": "fa"
+        },
+        {
+            "contents": "TEST_IGNORE_MESSAGE(\"${1:message}\");",
+            "kind": "snippet",
+            "trigger": "igm"
+        },
+        {
+            "contents": "TEST_IGNORE();",
+            "kind": "snippet",
+            "trigger": "ig"
+        },
+        {
+            "contents": "TEST_MESSAGE(\"${1:message}\");",
+            "kind": "snippet",
+            "trigger": "me"
+        },
+        {
+            "contents": "TEST_ONLY();",
+            "kind": "snippet",
+            "trigger": "on"
+        },
+        {
+            "contents": "TEST_PASS();",
+            "kind": "snippet",
+            "trigger": "pa"
+        },
+        {
+            "contents": "TEST_PASS_MESSAGE(\"${1:message}\");",
+            "kind": "snippet",
+            "trigger": "pam"
+        },
+        {
+            "contents": "TEST_FILE(${1:a});",
+            "kind": "snippet",
+            "trigger": "fi"
+        },
+        {
+            "contents": "TEST_ASSERT(${1:condition});",
+            "kind": "snippet",
+            "trigger": "as"
+        },
+        {
+            "contents": "TEST_ASSERT_TRUE(${1:condition});",
+            "kind": "snippet",
+            "trigger": "at"
+        },
+        {
+            "contents": "TEST_ASSERT_UNLESS(${1:condition});",
+            "kind": "snippet",
+            "trigger": "au"
+        },
+        {
+            "contents": "TEST_ASSERT_FALSE(${1:condition});",
+            "kind": "snippet",
+            "trigger": "af"
+        },
+        {
+            "contents": "TEST_ASSERT_NULL(${1:pointer});",
+            "kind": "snippet",
+            "trigger": "an"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_NULL(${1:pointer});",
+            "kind": "snippet",
+            "trigger": "ann"
+        },
+        {
+            "contents": "TEST_ASSERT_EMPTY(${1:pointer});",
+            "kind": "snippet",
+            "trigger": "ae"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EMPTY(${1:pointer});",
+            "kind": "snippet",
+            "trigger": "ane"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_INT(${1:expected}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aei"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_INT8(${1:expected}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aei8"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_INT16(${1:expected}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aei16"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_INT32(${1:expected}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aei32"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_INT64(${1:expected}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aei64"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_UINT(${1:expected}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aeu"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_UINT8(${1:expected}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aeu8"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_UINT16(${1:expected}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aeu16"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_UINT32(${1:expected}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aeu32"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_UINT64(${1:expected}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aeu64"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_size_t(${1:expected}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aesz"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_HEX(${1:expected}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aeh"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_HEX8(${1:expected}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aeh8"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_HEX16(${1:expected}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aeh16"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_HEX32(${1:expected}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aeh32"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_HEX64(${1:expected}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aeh64"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_CHAR(${1:expected}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aec"
+        },
+        {
+            "contents": "TEST_ASSERT_BITS(${1:mask}, ${2:expected}, ${3:actual});",
+            "kind": "snippet",
+            "trigger": "ab"
+        },
+        {
+            "contents": "TEST_ASSERT_BITS_HIGH(${1:mask}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "abh"
+        },
+        {
+            "contents": "TEST_ASSERT_BITS_LOW(${1:mask}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "abl"
+        },
+        {
+            "contents": "TEST_ASSERT_BIT_HIGH(${1:bit}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "abh"
+        },
+        {
+            "contents": "TEST_ASSERT_BIT_LOW(${1:bit}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "abl"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_INT(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "anei"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_INT8(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "anei8"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_INT16(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "anei16"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_INT32(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "anei32"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_INT64(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "anei64"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_UINT(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aneu"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_UINT8(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aneu8"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_UINT16(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aneu16"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_UINT32(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aneu32"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_UINT64(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aneu64"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_size_t(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "anesz"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_HEX8(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aneh8"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_HEX16(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aneh16"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_HEX32(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aneh32"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_HEX64(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aneh64"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_CHAR(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "anec"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agt"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_INT(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agti"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_INT8(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agti8"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_INT16(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agti16"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_INT32(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agti32"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_INT64(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agti64"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_UINT(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agtu"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_UINT8(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agtu8"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_UINT16(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agtu16"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_UINT32(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agtu32"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_UINT64(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agtu64"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_size_t(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agtsz"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_HEX8(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agth8"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_HEX16(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agth16"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_HEX32(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agth32"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_HEX64(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agth64"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_CHAR(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agtc"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "alt"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_INT(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "alti"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_INT8(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "alti8"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_INT16(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "alti16"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_INT32(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "alti32"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_INT64(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "alti64"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_UINT(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "altu"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_UINT8(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "altu8"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_UINT16(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "altu16"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_UINT32(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "altu32"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_UINT64(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "altu64"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_size_t(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "altsz"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_HEX8(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "alth8"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_HEX16(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "alth16"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_HEX32(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "alth32"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_HEX64(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "alth64"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_CHAR(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "altc"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agoe"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_INT(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agoei"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_INT8(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agoei8"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_INT16(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agoei16"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_INT32(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agoei32"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_INT64(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agoei64"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_UINT(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agoeu"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_UINT8(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agoeu8"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_UINT16(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agoeu16"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_UINT32(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agoeu32"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_UINT64(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agoeu64"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_size_t(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agoesz"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_HEX8(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agoeh8"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_HEX16(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agoeh16"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_HEX32(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agoeh32"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_HEX64(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agoeh64"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_CHAR(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agoec"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aloe"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_INT(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aloei"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_INT8(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aloei8"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_INT16(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aloei16"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_INT32(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aloei32"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_INT64(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aloei64"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_UINT(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aloeu"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_UINT8(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aloeu8"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_UINT16(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aloeu16"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_UINT32(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aloeu32"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_UINT64(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aloeu64"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_size_t(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aloesz"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_HEX8(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aloeh8"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_HEX16(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aloeh16"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_HEX32(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aloeh32"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_HEX64(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aloeh64"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_CHAR(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aloec"
+        },
+        {
+            "contents": "TEST_ASSERT_INT_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
+            "kind": "snippet",
+            "trigger": "aiw"
+        },
+        {
+            "contents": "TEST_ASSERT_INT8_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
+            "kind": "snippet",
+            "trigger": "ai8w"
+        },
+        {
+            "contents": "TEST_ASSERT_INT16_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
+            "kind": "snippet",
+            "trigger": "ai16w"
+        },
+        {
+            "contents": "TEST_ASSERT_INT32_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
+            "kind": "snippet",
+            "trigger": "ai32w"
+        },
+        {
+            "contents": "TEST_ASSERT_INT64_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
+            "kind": "snippet",
+            "trigger": "ai64w"
+        },
+        {
+            "contents": "TEST_ASSERT_UINT_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
+            "kind": "snippet",
+            "trigger": "auw"
+        },
+        {
+            "contents": "TEST_ASSERT_UINT8_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
+            "kind": "snippet",
+            "trigger": "au8w"
+        },
+        {
+            "contents": "TEST_ASSERT_UINT16_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
+            "kind": "snippet",
+            "trigger": "au16w"
+        },
+        {
+            "contents": "TEST_ASSERT_UINT32_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
+            "kind": "snippet",
+            "trigger": "au32w"
+        },
+        {
+            "contents": "TEST_ASSERT_UINT64_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
+            "kind": "snippet",
+            "trigger": "au64w"
+        },
+        {
+            "contents": "TEST_ASSERT_size_t_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
+            "kind": "snippet",
+            "trigger": "aszw"
+        },
+        {
+            "contents": "TEST_ASSERT_HEX_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
+            "kind": "snippet",
+            "trigger": "ahw"
+        },
+        {
+            "contents": "TEST_ASSERT_HEX8_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
+            "kind": "snippet",
+            "trigger": "ah8w"
+        },
+        {
+            "contents": "TEST_ASSERT_HEX16_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
+            "kind": "snippet",
+            "trigger": "ah16w"
+        },
+        {
+            "contents": "TEST_ASSERT_HEX32_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
+            "kind": "snippet",
+            "trigger": "ah32w"
+        },
+        {
+            "contents": "TEST_ASSERT_HEX64_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
+            "kind": "snippet",
+            "trigger": "ah64w"
+        },
+        {
+            "contents": "TEST_ASSERT_CHAR_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
+            "kind": "snippet",
+            "trigger": "acw"
+        },
+        {
+            "contents": "TEST_ASSERT_INT_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
+            "kind": "snippet",
+            "trigger": "aiaw"
+        },
+        {
+            "contents": "TEST_ASSERT_INT8_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
+            "kind": "snippet",
+            "trigger": "ai8aw"
+        },
+        {
+            "contents": "TEST_ASSERT_INT16_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
+            "kind": "snippet",
+            "trigger": "ai16aw"
+        },
+        {
+            "contents": "TEST_ASSERT_INT32_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
+            "kind": "snippet",
+            "trigger": "ai32aw"
+        },
+        {
+            "contents": "TEST_ASSERT_INT64_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
+            "kind": "snippet",
+            "trigger": "ai64aw"
+        },
+        {
+            "contents": "TEST_ASSERT_UINT_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
+            "kind": "snippet",
+            "trigger": "auaw"
+        },
+        {
+            "contents": "TEST_ASSERT_UINT8_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
+            "kind": "snippet",
+            "trigger": "au8aw"
+        },
+        {
+            "contents": "TEST_ASSERT_UINT16_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
+            "kind": "snippet",
+            "trigger": "au16aw"
+        },
+        {
+            "contents": "TEST_ASSERT_UINT32_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
+            "kind": "snippet",
+            "trigger": "au32aw"
+        },
+        {
+            "contents": "TEST_ASSERT_UINT64_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
+            "kind": "snippet",
+            "trigger": "au64aw"
+        },
+        {
+            "contents": "TEST_ASSERT_size_t_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
+            "kind": "snippet",
+            "trigger": "aszaw"
+        },
+        {
+            "contents": "TEST_ASSERT_HEX_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
+            "kind": "snippet",
+            "trigger": "ahaw"
+        },
+        {
+            "contents": "TEST_ASSERT_HEX8_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
+            "kind": "snippet",
+            "trigger": "ah8aw"
+        },
+        {
+            "contents": "TEST_ASSERT_HEX16_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
+            "kind": "snippet",
+            "trigger": "ah16aw"
+        },
+        {
+            "contents": "TEST_ASSERT_HEX32_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
+            "kind": "snippet",
+            "trigger": "ah32aw"
+        },
+        {
+            "contents": "TEST_ASSERT_HEX64_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
+            "kind": "snippet",
+            "trigger": "ah64aw"
+        },
+        {
+            "contents": "TEST_ASSERT_CHAR_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
+            "kind": "snippet",
+            "trigger": "acaw"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_PTR(${1:expected}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aep"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_STRING(${1:expected}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aes"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_STRING_LEN(${1:expected}, ${2:actual}, ${3:len});",
+            "kind": "snippet",
+            "trigger": "aesl"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_MEMORY(${1:expected}, ${2:actual}, ${3:len});",
+            "kind": "snippet",
+            "trigger": "aem"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_INT_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeia"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_INT8_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aei8a"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_INT16_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aei16a"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_INT32_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aei32a"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_INT64_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aei64a"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_UINT_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeua"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_UINT8_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeu8a"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_UINT16_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeu16a"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_UINT32_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeu32a"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_UINT64_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeu64a"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_size_t_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aesza"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_HEX_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeha"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_HEX8_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeh8a"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_HEX16_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeh16a"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_HEX32_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeh32a"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_HEX64_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeh64a"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_PTR_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aepa"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_STRING_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aesa"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_MEMORY_ARRAY(${1:expected}, ${2:actual}, ${3:len}, ${4:num_elements});",
+            "kind": "snippet",
+            "trigger": "aema"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_CHAR_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeca"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_INT(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeei"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_INT8(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeei8"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_INT16(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeei16"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_INT32(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeei32"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_INT64(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeei64"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_UINT(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeeu"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_UINT8(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeeu8"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_UINT16(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeeu16"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_UINT32(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeeu32"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_UINT64(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeeu64"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_size_t(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeesz"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_HEX(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeeh"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_HEX8(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeeh8"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_HEX16(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeeh16"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_HEX32(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeeh32"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_HEX64(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeeh64"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_PTR(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeep"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_STRING(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aees"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_MEMORY(${1:expected}, ${2:actual}, ${3:len}, ${4:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeem"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_CHAR(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeec"
+        },
+        {
+            "contents": "TEST_ASSERT_FLOAT_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
+            "kind": "snippet",
+            "trigger": "afw"
+        },
+        {
+            "contents": "TEST_ASSERT_FLOAT_NOT_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
+            "kind": "snippet",
+            "trigger": "afnw"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_FLOAT(${1:expected}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aef"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_FLOAT(${1:expected}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "anef"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_FLOAT_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aefa"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_FLOAT(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeef"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_FLOAT(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agtf"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_FLOAT(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agoef"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_FLOAT(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "altf"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_FLOAT(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aloef"
+        },
+        {
+            "contents": "TEST_ASSERT_FLOAT_IS_INF(${1:actual});",
+            "kind": "snippet",
+            "trigger": "afii"
+        },
+        {
+            "contents": "TEST_ASSERT_FLOAT_IS_NEG_INF(${1:actual});",
+            "kind": "snippet",
+            "trigger": "afini"
+        },
+        {
+            "contents": "TEST_ASSERT_FLOAT_IS_NAN(${1:actual});",
+            "kind": "snippet",
+            "trigger": "afin"
+        },
+        {
+            "contents": "TEST_ASSERT_FLOAT_IS_DETERMINATE(${1:actual});",
+            "kind": "snippet",
+            "trigger": "afid"
+        },
+        {
+            "contents": "TEST_ASSERT_FLOAT_IS_NOT_INF(${1:actual});",
+            "kind": "snippet",
+            "trigger": "afini"
+        },
+        {
+            "contents": "TEST_ASSERT_FLOAT_IS_NOT_NEG_INF(${1:actual});",
+            "kind": "snippet",
+            "trigger": "afinni"
+        },
+        {
+            "contents": "TEST_ASSERT_FLOAT_IS_NOT_NAN(${1:actual});",
+            "kind": "snippet",
+            "trigger": "afinn"
+        },
+        {
+            "contents": "TEST_ASSERT_FLOAT_IS_NOT_DETERMINATE(${1:actual});",
+            "kind": "snippet",
+            "trigger": "afind"
+        },
+        {
+            "contents": "TEST_ASSERT_DOUBLE_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
+            "kind": "snippet",
+            "trigger": "adw"
+        },
+        {
+            "contents": "TEST_ASSERT_DOUBLE_NOT_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
+            "kind": "snippet",
+            "trigger": "adnw"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_DOUBLE(${1:expected}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aed"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_DOUBLE(${1:expected}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aned"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_DOUBLE_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeda"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_DOUBLE(${1:expected}, ${2:actual}, ${3:num_elements});",
+            "kind": "snippet",
+            "trigger": "aeed"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_DOUBLE(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agtd"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_DOUBLE(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "agoed"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_DOUBLE(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "altd"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_DOUBLE(${1:threshold}, ${2:actual});",
+            "kind": "snippet",
+            "trigger": "aloed"
+        },
+        {
+            "contents": "TEST_ASSERT_DOUBLE_IS_INF(${1:actual});",
+            "kind": "snippet",
+            "trigger": "adii"
+        },
+        {
+            "contents": "TEST_ASSERT_DOUBLE_IS_NEG_INF(${1:actual});",
+            "kind": "snippet",
+            "trigger": "adini"
+        },
+        {
+            "contents": "TEST_ASSERT_DOUBLE_IS_NAN(${1:actual});",
+            "kind": "snippet",
+            "trigger": "adin"
+        },
+        {
+            "contents": "TEST_ASSERT_DOUBLE_IS_DETERMINATE(${1:actual});",
+            "kind": "snippet",
+            "trigger": "adid"
+        },
+        {
+            "contents": "TEST_ASSERT_DOUBLE_IS_NOT_INF(${1:actual});",
+            "kind": "snippet",
+            "trigger": "adini"
+        },
+        {
+            "contents": "TEST_ASSERT_DOUBLE_IS_NOT_NEG_INF(${1:actual});",
+            "kind": "snippet",
+            "trigger": "adinni"
+        },
+        {
+            "contents": "TEST_ASSERT_DOUBLE_IS_NOT_NAN(${1:actual});",
+            "kind": "snippet",
+            "trigger": "adinn"
+        },
+        {
+            "contents": "TEST_ASSERT_DOUBLE_IS_NOT_DETERMINATE(${1:actual});",
+            "kind": "snippet",
+            "trigger": "adind"
+        },
+        {
+            "contents": "TEST_ASSERT_MESSAGE(${1:condition}, \"${2:message}\");",
+            "kind": "snippet",
+            "trigger": "asm"
+        },
+        {
+            "contents": "TEST_ASSERT_TRUE_MESSAGE(${1:condition}, \"${2:message}\");",
+            "kind": "snippet",
+            "trigger": "atm"
+        },
+        {
+            "contents": "TEST_ASSERT_UNLESS_MESSAGE(${1:condition}, \"${2:message}\");",
+            "kind": "snippet",
+            "trigger": "aum"
+        },
+        {
+            "contents": "TEST_ASSERT_FALSE_MESSAGE(${1:condition}, \"${2:message}\");",
+            "kind": "snippet",
+            "trigger": "afm"
+        },
+        {
+            "contents": "TEST_ASSERT_NULL_MESSAGE(${1:pointer}, \"${2:message}\");",
+            "kind": "snippet",
+            "trigger": "anm"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_NULL_MESSAGE(${1:pointer}, \"${2:message}\");",
+            "kind": "snippet",
+            "trigger": "annm"
+        },
+        {
+            "contents": "TEST_ASSERT_EMPTY_MESSAGE(${1:pointer}, \"${2:message}\");",
+            "kind": "snippet",
+            "trigger": "aem"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EMPTY_MESSAGE(${1:pointer}, \"${2:message}\");",
+            "kind": "snippet",
+            "trigger": "anem"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_INT_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aeim"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_INT8_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aei8m"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_INT16_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aei16m"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_INT32_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aei32m"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_INT64_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aei64m"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_UINT_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aeum"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_UINT8_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aeu8m"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_UINT16_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aeu16m"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_UINT32_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aeu32m"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_UINT64_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aeu64m"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_size_t_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aeszm"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_HEX_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aehm"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_HEX8_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aeh8m"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_HEX16_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aeh16m"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_HEX32_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aeh32m"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_HEX64_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aeh64m"
+        },
+        {
+            "contents": "TEST_ASSERT_BITS_MESSAGE(${1:mask}, ${2:expected}, ${3:actual}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "abm"
+        },
+        {
+            "contents": "TEST_ASSERT_BITS_HIGH_MESSAGE(${1:mask}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "abhm"
+        },
+        {
+            "contents": "TEST_ASSERT_BITS_LOW_MESSAGE(${1:mask}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "ablm"
+        },
+        {
+            "contents": "TEST_ASSERT_BIT_HIGH_MESSAGE(${1:bit}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "abhm"
+        },
+        {
+            "contents": "TEST_ASSERT_BIT_LOW_MESSAGE(${1:bit}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "ablm"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_CHAR_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aecm"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_INT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aneim"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_INT8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "anei8m"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_INT16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "anei16m"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_INT32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "anei32m"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_INT64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "anei64m"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_UINT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aneum"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_UINT8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aneu8m"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_UINT16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aneu16m"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_UINT32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aneu32m"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_UINT64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aneu64m"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_size_t_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aneszm"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_HEX8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aneh8m"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_HEX16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aneh16m"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_HEX32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aneh32m"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_HEX64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aneh64m"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_CHAR_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "anecm"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agtm"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_INT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agtim"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_INT8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agti8m"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_INT16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agti16m"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_INT32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agti32m"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_INT64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agti64m"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_UINT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agtum"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_UINT8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agtu8m"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_UINT16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agtu16m"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_UINT32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agtu32m"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_UINT64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agtu64m"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_size_t_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agtszm"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_HEX8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agth8m"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_HEX16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agth16m"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_HEX32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agth32m"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_HEX64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agth64m"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_CHAR_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agtcm"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "altm"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_INT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "altim"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_INT8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "alti8m"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_INT16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "alti16m"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_INT32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "alti32m"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_INT64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "alti64m"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_UINT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "altum"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_UINT8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "altu8m"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_UINT16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "altu16m"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_UINT32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "altu32m"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_UINT64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "altu64m"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_size_t_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "altszm"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_HEX8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "alth8m"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_HEX16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "alth16m"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_HEX32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "alth32m"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_HEX64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "alth64m"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_CHAR_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "altcm"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agoem"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_INT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agoeim"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_INT8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agoei8m"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_INT16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agoei16m"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_INT32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agoei32m"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_INT64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agoei64m"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_UINT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agoeum"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_UINT8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agoeu8m"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_UINT16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agoeu16m"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_UINT32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agoeu32m"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_UINT64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agoeu64m"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_size_t_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agoeszm"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_HEX8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agoeh8m"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_HEX16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agoeh16m"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_HEX32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agoeh32m"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_HEX64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agoeh64m"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_CHAR_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agoecm"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aloem"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_INT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aloeim"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_INT8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aloei8m"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_INT16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aloei16m"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_INT32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aloei32m"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_INT64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aloei64m"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_UINT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aloeum"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_UINT8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aloeu8m"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_UINT16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aloeu16m"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_UINT32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aloeu32m"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_UINT64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aloeu64m"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_size_t_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aloeszm"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_HEX8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aloeh8m"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_HEX16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aloeh16m"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_HEX32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aloeh32m"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_HEX64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aloeh64m"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_CHAR_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aloecm"
+        },
+        {
+            "contents": "TEST_ASSERT_INT_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aiwm"
+        },
+        {
+            "contents": "TEST_ASSERT_INT8_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "ai8wm"
+        },
+        {
+            "contents": "TEST_ASSERT_INT16_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "ai16wm"
+        },
+        {
+            "contents": "TEST_ASSERT_INT32_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "ai32wm"
+        },
+        {
+            "contents": "TEST_ASSERT_INT64_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "ai64wm"
+        },
+        {
+            "contents": "TEST_ASSERT_UINT_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "auwm"
+        },
+        {
+            "contents": "TEST_ASSERT_UINT8_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "au8wm"
+        },
+        {
+            "contents": "TEST_ASSERT_UINT16_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "au16wm"
+        },
+        {
+            "contents": "TEST_ASSERT_UINT32_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "au32wm"
+        },
+        {
+            "contents": "TEST_ASSERT_UINT64_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "au64wm"
+        },
+        {
+            "contents": "TEST_ASSERT_size_t_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aszwm"
+        },
+        {
+            "contents": "TEST_ASSERT_HEX_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "ahwm"
+        },
+        {
+            "contents": "TEST_ASSERT_HEX8_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "ah8wm"
+        },
+        {
+            "contents": "TEST_ASSERT_HEX16_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "ah16wm"
+        },
+        {
+            "contents": "TEST_ASSERT_HEX32_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "ah32wm"
+        },
+        {
+            "contents": "TEST_ASSERT_HEX64_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "ah64wm"
+        },
+        {
+            "contents": "TEST_ASSERT_CHAR_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "acwm"
+        },
+        {
+            "contents": "TEST_ASSERT_INT_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
+            "kind": "snippet",
+            "trigger": "aiawm"
+        },
+        {
+            "contents": "TEST_ASSERT_INT8_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
+            "kind": "snippet",
+            "trigger": "ai8awm"
+        },
+        {
+            "contents": "TEST_ASSERT_INT16_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
+            "kind": "snippet",
+            "trigger": "ai16awm"
+        },
+        {
+            "contents": "TEST_ASSERT_INT32_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
+            "kind": "snippet",
+            "trigger": "ai32awm"
+        },
+        {
+            "contents": "TEST_ASSERT_INT64_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
+            "kind": "snippet",
+            "trigger": "ai64awm"
+        },
+        {
+            "contents": "TEST_ASSERT_UINT_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
+            "kind": "snippet",
+            "trigger": "auawm"
+        },
+        {
+            "contents": "TEST_ASSERT_UINT8_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
+            "kind": "snippet",
+            "trigger": "au8awm"
+        },
+        {
+            "contents": "TEST_ASSERT_UINT16_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
+            "kind": "snippet",
+            "trigger": "au16awm"
+        },
+        {
+            "contents": "TEST_ASSERT_UINT32_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
+            "kind": "snippet",
+            "trigger": "au32awm"
+        },
+        {
+            "contents": "TEST_ASSERT_UINT64_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
+            "kind": "snippet",
+            "trigger": "au64awm"
+        },
+        {
+            "contents": "TEST_ASSERT_size_t_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
+            "kind": "snippet",
+            "trigger": "aszawm"
+        },
+        {
+            "contents": "TEST_ASSERT_HEX_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
+            "kind": "snippet",
+            "trigger": "ahawm"
+        },
+        {
+            "contents": "TEST_ASSERT_HEX8_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
+            "kind": "snippet",
+            "trigger": "ah8awm"
+        },
+        {
+            "contents": "TEST_ASSERT_HEX16_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
+            "kind": "snippet",
+            "trigger": "ah16awm"
+        },
+        {
+            "contents": "TEST_ASSERT_HEX32_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
+            "kind": "snippet",
+            "trigger": "ah32awm"
+        },
+        {
+            "contents": "TEST_ASSERT_HEX64_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
+            "kind": "snippet",
+            "trigger": "ah64awm"
+        },
+        {
+            "contents": "TEST_ASSERT_CHAR_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
+            "kind": "snippet",
+            "trigger": "acawm"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_PTR_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aepm"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_STRING_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aesm"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_STRING_LEN_MESSAGE(${1:expected}, ${2:actual}, ${3:len}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeslm"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_MEMORY_MESSAGE(${1:expected}, ${2:actual}, ${3:len}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aemm"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_INT_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeiam"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_INT8_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aei8am"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_INT16_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aei16am"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_INT32_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aei32am"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_INT64_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aei64am"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_UINT_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeuam"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_UINT8_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeu8am"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_UINT16_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeu16am"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_UINT32_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeu32am"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_UINT64_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeu64am"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_size_t_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeszam"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_HEX_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeham"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_HEX8_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeh8am"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_HEX16_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeh16am"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_HEX32_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeh32am"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_HEX64_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeh64am"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_PTR_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aepam"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_STRING_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aesam"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_MEMORY_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:len}, ${4:num_elements}, \"${5:message}\");",
+            "kind": "snippet",
+            "trigger": "aemam"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_CHAR_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aecam"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_INT_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeeim"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_INT8_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeei8m"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_INT16_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeei16m"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_INT32_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeei32m"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_INT64_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeei64m"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_UINT_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeeum"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_UINT8_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeeu8m"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_UINT16_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeeu16m"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_UINT32_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeeu32m"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_UINT64_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeeu64m"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_size_t_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeeszm"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_HEX_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeehm"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_HEX8_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeeh8m"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_HEX16_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeeh16m"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_HEX32_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeeh32m"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_HEX64_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeeh64m"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_PTR_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeepm"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_STRING_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeesm"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_MEMORY_MESSAGE(${1:expected}, ${2:actual}, ${3:len}, ${4:num_elements}, \"${5:message}\");",
+            "kind": "snippet",
+            "trigger": "aeemm"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_CHAR_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeecm"
+        },
+        {
+            "contents": "TEST_ASSERT_FLOAT_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "afwm"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_FLOAT_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aefm"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_FLOAT_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "anefm"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_FLOAT_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aefam"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_FLOAT_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeefm"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_FLOAT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agtfm"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_FLOAT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agoefm"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_FLOAT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "altfm"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_FLOAT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aloefm"
+        },
+        {
+            "contents": "TEST_ASSERT_FLOAT_IS_INF_MESSAGE(${1:actual}, \"${2:message}\");",
+            "kind": "snippet",
+            "trigger": "afiim"
+        },
+        {
+            "contents": "TEST_ASSERT_FLOAT_IS_NEG_INF_MESSAGE(${1:actual}, \"${2:message}\");",
+            "kind": "snippet",
+            "trigger": "afinim"
+        },
+        {
+            "contents": "TEST_ASSERT_FLOAT_IS_NAN_MESSAGE(${1:actual}, \"${2:message}\");",
+            "kind": "snippet",
+            "trigger": "afinm"
+        },
+        {
+            "contents": "TEST_ASSERT_FLOAT_IS_DETERMINATE_MESSAGE(${1:actual}, \"${2:message}\");",
+            "kind": "snippet",
+            "trigger": "afidm"
+        },
+        {
+            "contents": "TEST_ASSERT_FLOAT_IS_NOT_INF_MESSAGE(${1:actual}, \"${2:message}\");",
+            "kind": "snippet",
+            "trigger": "afinim"
+        },
+        {
+            "contents": "TEST_ASSERT_FLOAT_IS_NOT_NEG_INF_MESSAGE(${1:actual}, \"${2:message}\");",
+            "kind": "snippet",
+            "trigger": "afinnim"
+        },
+        {
+            "contents": "TEST_ASSERT_FLOAT_IS_NOT_NAN_MESSAGE(${1:actual}, \"${2:message}\");",
+            "kind": "snippet",
+            "trigger": "afinnm"
+        },
+        {
+            "contents": "TEST_ASSERT_FLOAT_IS_NOT_DETERMINATE_MESSAGE(${1:actual}, \"${2:message}\");",
+            "kind": "snippet",
+            "trigger": "afindm"
+        },
+        {
+            "contents": "TEST_ASSERT_DOUBLE_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "adwm"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_DOUBLE_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aedm"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_DOUBLE_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "anedm"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_DOUBLE_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aedam"
+        },
+        {
+            "contents": "TEST_ASSERT_EACH_EQUAL_DOUBLE_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
+            "kind": "snippet",
+            "trigger": "aeedm"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_THAN_DOUBLE_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agtdm"
+        },
+        {
+            "contents": "TEST_ASSERT_GREATER_OR_EQUAL_DOUBLE_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "agoedm"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_THAN_DOUBLE_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "altdm"
+        },
+        {
+            "contents": "TEST_ASSERT_LESS_OR_EQUAL_DOUBLE_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aloedm"
+        },
+        {
+            "contents": "TEST_ASSERT_DOUBLE_IS_INF_MESSAGE(${1:actual}, \"${2:message}\");",
+            "kind": "snippet",
+            "trigger": "adiim"
+        },
+        {
+            "contents": "TEST_ASSERT_DOUBLE_IS_NEG_INF_MESSAGE(${1:actual}, \"${2:message}\");",
+            "kind": "snippet",
+            "trigger": "adinim"
+        },
+        {
+            "contents": "TEST_ASSERT_DOUBLE_IS_NAN_MESSAGE(${1:actual}, \"${2:message}\");",
+            "kind": "snippet",
+            "trigger": "adinm"
+        },
+        {
+            "contents": "TEST_ASSERT_DOUBLE_IS_DETERMINATE_MESSAGE(${1:actual}, \"${2:message}\");",
+            "kind": "snippet",
+            "trigger": "adidm"
+        },
+        {
+            "contents": "TEST_ASSERT_DOUBLE_IS_NOT_INF_MESSAGE(${1:actual}, \"${2:message}\");",
+            "kind": "snippet",
+            "trigger": "adinim"
+        },
+        {
+            "contents": "TEST_ASSERT_DOUBLE_IS_NOT_NEG_INF_MESSAGE(${1:actual}, \"${2:message}\");",
+            "kind": "snippet",
+            "trigger": "adinnim"
+        },
+        {
+            "contents": "TEST_ASSERT_DOUBLE_IS_NOT_NAN_MESSAGE(${1:actual}, \"${2:message}\");",
+            "kind": "snippet",
+            "trigger": "adinnm"
+        },
+        {
+            "contents": "TEST_ASSERT_DOUBLE_IS_NOT_DETERMINATE_MESSAGE(${1:actual}, \"${2:message}\");",
+            "kind": "snippet",
+            "trigger": "adindm"
+        },
+        {
+            "contents": "TEST_ASSERT_EQUAL_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "aem"
+        },
+        {
+            "contents": "TEST_ASSERT_NOT_EQUAL_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
+            "kind": "snippet",
+            "trigger": "anem"
+        }
+    ],
+    "scope": "(source.c | source.c++ | source.c99) (meta.function & meta.block)"
+}
