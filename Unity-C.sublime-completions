@@ -1,2819 +1,2807 @@
 {
+    "scope": "(source.c | source.c++ | source.c99) (meta.function & meta.block)",
     "completions": [
         {
-            "annotation": "Unity: fail message",
+            "annotation": "unity: fail message",
             "contents": "TEST_FAIL_MESSAGE(\"${1:message}\");",
-            "kind": "snippet",
-            "trigger": "fam"
+            "trigger": "fam",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: fail",
+            "annotation": "unity: fail",
             "contents": "TEST_FAIL();",
-            "kind": "snippet",
-            "trigger": "fa"
+            "trigger": "fa",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: ignore message",
+            "annotation": "unity: ignore message",
             "contents": "TEST_IGNORE_MESSAGE(\"${1:message}\");",
-            "kind": "snippet",
-            "trigger": "igm"
+            "trigger": "igm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: ignore",
+            "annotation": "unity: ignore",
             "contents": "TEST_IGNORE();",
-            "kind": "snippet",
-            "trigger": "ig"
+            "trigger": "ig",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: message",
+            "annotation": "unity: message",
             "contents": "TEST_MESSAGE(\"${1:message}\");",
-            "kind": "snippet",
-            "trigger": "me"
+            "trigger": "me",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: only",
+            "annotation": "unity: only",
             "contents": "TEST_ONLY();",
-            "kind": "snippet",
-            "trigger": "on"
+            "trigger": "on",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: pass",
+            "annotation": "unity: pass",
             "contents": "TEST_PASS();",
-            "kind": "snippet",
-            "trigger": "pa"
+            "trigger": "pa",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: pass message",
+            "annotation": "unity: pass message",
             "contents": "TEST_PASS_MESSAGE(\"${1:message}\");",
-            "kind": "snippet",
-            "trigger": "pam"
+            "trigger": "pam",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: file",
+            "annotation": "unity: file",
             "contents": "TEST_FILE(${1:a});",
-            "kind": "snippet",
-            "trigger": "fi"
+            "trigger": "fi",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert",
+            "annotation": "unity: assert",
             "contents": "TEST_ASSERT(${1:condition});",
-            "kind": "snippet",
-            "trigger": "as"
+            "trigger": "as",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert true",
+            "annotation": "unity: assert true",
             "contents": "TEST_ASSERT_TRUE(${1:condition});",
-            "kind": "snippet",
-            "trigger": "at"
+            "trigger": "at",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert unless",
+            "annotation": "unity: assert unless",
             "contents": "TEST_ASSERT_UNLESS(${1:condition});",
-            "kind": "snippet",
-            "trigger": "au"
+            "trigger": "au",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert false",
+            "annotation": "unity: assert false",
             "contents": "TEST_ASSERT_FALSE(${1:condition});",
-            "kind": "snippet",
-            "trigger": "af"
+            "trigger": "af",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert null",
+            "annotation": "unity: assert null",
             "contents": "TEST_ASSERT_NULL(${1:pointer});",
-            "kind": "snippet",
-            "trigger": "an"
+            "trigger": "an",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not null",
+            "annotation": "unity: assert not null",
             "contents": "TEST_ASSERT_NOT_NULL(${1:pointer});",
-            "kind": "snippet",
-            "trigger": "ann"
+            "trigger": "ann",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert empty",
+            "annotation": "unity: assert empty",
             "contents": "TEST_ASSERT_EMPTY(${1:pointer});",
-            "kind": "snippet",
-            "trigger": "ae"
+            "trigger": "ae",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not empty",
+            "annotation": "unity: assert not empty",
             "contents": "TEST_ASSERT_NOT_EMPTY(${1:pointer});",
-            "kind": "snippet",
-            "trigger": "ane"
+            "trigger": "ane",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal int",
+            "annotation": "unity: assert equal int",
             "contents": "TEST_ASSERT_EQUAL_INT(${1:expected}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aei"
+            "trigger": "aei",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal int8",
+            "annotation": "unity: assert equal int8",
             "contents": "TEST_ASSERT_EQUAL_INT8(${1:expected}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aei8"
+            "trigger": "aei8",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal int16",
+            "annotation": "unity: assert equal int16",
             "contents": "TEST_ASSERT_EQUAL_INT16(${1:expected}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aei16"
+            "trigger": "aei16",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal int32",
+            "annotation": "unity: assert equal int32",
             "contents": "TEST_ASSERT_EQUAL_INT32(${1:expected}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aei32"
+            "trigger": "aei32",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal int64",
+            "annotation": "unity: assert equal int64",
             "contents": "TEST_ASSERT_EQUAL_INT64(${1:expected}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aei64"
+            "trigger": "aei64",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal uint",
+            "annotation": "unity: assert equal uint",
             "contents": "TEST_ASSERT_EQUAL_UINT(${1:expected}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aeu"
+            "trigger": "aeu",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal uint8",
+            "annotation": "unity: assert equal uint8",
             "contents": "TEST_ASSERT_EQUAL_UINT8(${1:expected}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aeu8"
+            "trigger": "aeu8",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal uint16",
+            "annotation": "unity: assert equal uint16",
             "contents": "TEST_ASSERT_EQUAL_UINT16(${1:expected}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aeu16"
+            "trigger": "aeu16",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal uint32",
+            "annotation": "unity: assert equal uint32",
             "contents": "TEST_ASSERT_EQUAL_UINT32(${1:expected}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aeu32"
+            "trigger": "aeu32",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal uint64",
+            "annotation": "unity: assert equal uint64",
             "contents": "TEST_ASSERT_EQUAL_UINT64(${1:expected}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aeu64"
+            "trigger": "aeu64",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal size_t",
+            "annotation": "unity: assert equal size_t",
             "contents": "TEST_ASSERT_EQUAL_size_t(${1:expected}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aesz"
+            "trigger": "aesz",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal hex",
+            "annotation": "unity: assert equal hex",
             "contents": "TEST_ASSERT_EQUAL_HEX(${1:expected}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aeh"
+            "trigger": "aeh",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal hex8",
+            "annotation": "unity: assert equal hex8",
             "contents": "TEST_ASSERT_EQUAL_HEX8(${1:expected}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aeh8"
+            "trigger": "aeh8",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal hex16",
+            "annotation": "unity: assert equal hex16",
             "contents": "TEST_ASSERT_EQUAL_HEX16(${1:expected}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aeh16"
+            "trigger": "aeh16",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal hex32",
+            "annotation": "unity: assert equal hex32",
             "contents": "TEST_ASSERT_EQUAL_HEX32(${1:expected}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aeh32"
+            "trigger": "aeh32",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal hex64",
+            "annotation": "unity: assert equal hex64",
             "contents": "TEST_ASSERT_EQUAL_HEX64(${1:expected}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aeh64"
+            "trigger": "aeh64",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal char",
+            "annotation": "unity: assert equal char",
             "contents": "TEST_ASSERT_EQUAL_CHAR(${1:expected}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aec"
+            "trigger": "aec",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert bits",
+            "annotation": "unity: assert bits",
             "contents": "TEST_ASSERT_BITS(${1:mask}, ${2:expected}, ${3:actual});",
-            "kind": "snippet",
-            "trigger": "ab"
+            "trigger": "ab",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert bits high",
+            "annotation": "unity: assert bits high",
             "contents": "TEST_ASSERT_BITS_HIGH(${1:mask}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "abh"
+            "trigger": "abh",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert bits low",
+            "annotation": "unity: assert bits low",
             "contents": "TEST_ASSERT_BITS_LOW(${1:mask}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "abl"
+            "trigger": "abl",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert bit high",
+            "annotation": "unity: assert bit high",
             "contents": "TEST_ASSERT_BIT_HIGH(${1:bit}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "abh"
+            "trigger": "abh",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert bit low",
+            "annotation": "unity: assert bit low",
             "contents": "TEST_ASSERT_BIT_LOW(${1:bit}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "abl"
+            "trigger": "abl",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal int",
+            "annotation": "unity: assert not equal int",
             "contents": "TEST_ASSERT_NOT_EQUAL_INT(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "anei"
+            "trigger": "anei",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal int8",
+            "annotation": "unity: assert not equal int8",
             "contents": "TEST_ASSERT_NOT_EQUAL_INT8(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "anei8"
+            "trigger": "anei8",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal int16",
+            "annotation": "unity: assert not equal int16",
             "contents": "TEST_ASSERT_NOT_EQUAL_INT16(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "anei16"
+            "trigger": "anei16",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal int32",
+            "annotation": "unity: assert not equal int32",
             "contents": "TEST_ASSERT_NOT_EQUAL_INT32(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "anei32"
+            "trigger": "anei32",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal int64",
+            "annotation": "unity: assert not equal int64",
             "contents": "TEST_ASSERT_NOT_EQUAL_INT64(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "anei64"
+            "trigger": "anei64",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal uint",
+            "annotation": "unity: assert not equal uint",
             "contents": "TEST_ASSERT_NOT_EQUAL_UINT(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aneu"
+            "trigger": "aneu",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal uint8",
+            "annotation": "unity: assert not equal uint8",
             "contents": "TEST_ASSERT_NOT_EQUAL_UINT8(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aneu8"
+            "trigger": "aneu8",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal uint16",
+            "annotation": "unity: assert not equal uint16",
             "contents": "TEST_ASSERT_NOT_EQUAL_UINT16(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aneu16"
+            "trigger": "aneu16",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal uint32",
+            "annotation": "unity: assert not equal uint32",
             "contents": "TEST_ASSERT_NOT_EQUAL_UINT32(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aneu32"
+            "trigger": "aneu32",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal uint64",
+            "annotation": "unity: assert not equal uint64",
             "contents": "TEST_ASSERT_NOT_EQUAL_UINT64(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aneu64"
+            "trigger": "aneu64",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal size_t",
+            "annotation": "unity: assert not equal size_t",
             "contents": "TEST_ASSERT_NOT_EQUAL_size_t(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "anesz"
+            "trigger": "anesz",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal hex8",
+            "annotation": "unity: assert not equal hex8",
             "contents": "TEST_ASSERT_NOT_EQUAL_HEX8(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aneh8"
+            "trigger": "aneh8",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal hex16",
+            "annotation": "unity: assert not equal hex16",
             "contents": "TEST_ASSERT_NOT_EQUAL_HEX16(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aneh16"
+            "trigger": "aneh16",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal hex32",
+            "annotation": "unity: assert not equal hex32",
             "contents": "TEST_ASSERT_NOT_EQUAL_HEX32(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aneh32"
+            "trigger": "aneh32",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal hex64",
+            "annotation": "unity: assert not equal hex64",
             "contents": "TEST_ASSERT_NOT_EQUAL_HEX64(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aneh64"
+            "trigger": "aneh64",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal char",
+            "annotation": "unity: assert not equal char",
             "contents": "TEST_ASSERT_NOT_EQUAL_CHAR(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "anec"
+            "trigger": "anec",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than",
+            "annotation": "unity: assert greater than",
             "contents": "TEST_ASSERT_GREATER_THAN(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agt"
+            "trigger": "agt",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than int",
+            "annotation": "unity: assert greater than int",
             "contents": "TEST_ASSERT_GREATER_THAN_INT(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agti"
+            "trigger": "agti",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than int8",
+            "annotation": "unity: assert greater than int8",
             "contents": "TEST_ASSERT_GREATER_THAN_INT8(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agti8"
+            "trigger": "agti8",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than int16",
+            "annotation": "unity: assert greater than int16",
             "contents": "TEST_ASSERT_GREATER_THAN_INT16(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agti16"
+            "trigger": "agti16",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than int32",
+            "annotation": "unity: assert greater than int32",
             "contents": "TEST_ASSERT_GREATER_THAN_INT32(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agti32"
+            "trigger": "agti32",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than int64",
+            "annotation": "unity: assert greater than int64",
             "contents": "TEST_ASSERT_GREATER_THAN_INT64(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agti64"
+            "trigger": "agti64",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than uint",
+            "annotation": "unity: assert greater than uint",
             "contents": "TEST_ASSERT_GREATER_THAN_UINT(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agtu"
+            "trigger": "agtu",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than uint8",
+            "annotation": "unity: assert greater than uint8",
             "contents": "TEST_ASSERT_GREATER_THAN_UINT8(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agtu8"
+            "trigger": "agtu8",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than uint16",
+            "annotation": "unity: assert greater than uint16",
             "contents": "TEST_ASSERT_GREATER_THAN_UINT16(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agtu16"
+            "trigger": "agtu16",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than uint32",
+            "annotation": "unity: assert greater than uint32",
             "contents": "TEST_ASSERT_GREATER_THAN_UINT32(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agtu32"
+            "trigger": "agtu32",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than uint64",
+            "annotation": "unity: assert greater than uint64",
             "contents": "TEST_ASSERT_GREATER_THAN_UINT64(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agtu64"
+            "trigger": "agtu64",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than size_t",
+            "annotation": "unity: assert greater than size_t",
             "contents": "TEST_ASSERT_GREATER_THAN_size_t(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agtsz"
+            "trigger": "agtsz",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than hex8",
+            "annotation": "unity: assert greater than hex8",
             "contents": "TEST_ASSERT_GREATER_THAN_HEX8(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agth8"
+            "trigger": "agth8",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than hex16",
+            "annotation": "unity: assert greater than hex16",
             "contents": "TEST_ASSERT_GREATER_THAN_HEX16(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agth16"
+            "trigger": "agth16",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than hex32",
+            "annotation": "unity: assert greater than hex32",
             "contents": "TEST_ASSERT_GREATER_THAN_HEX32(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agth32"
+            "trigger": "agth32",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than hex64",
+            "annotation": "unity: assert greater than hex64",
             "contents": "TEST_ASSERT_GREATER_THAN_HEX64(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agth64"
+            "trigger": "agth64",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than char",
+            "annotation": "unity: assert greater than char",
             "contents": "TEST_ASSERT_GREATER_THAN_CHAR(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agtc"
+            "trigger": "agtc",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than",
+            "annotation": "unity: assert less than",
             "contents": "TEST_ASSERT_LESS_THAN(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "alt"
+            "trigger": "alt",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than int",
+            "annotation": "unity: assert less than int",
             "contents": "TEST_ASSERT_LESS_THAN_INT(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "alti"
+            "trigger": "alti",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than int8",
+            "annotation": "unity: assert less than int8",
             "contents": "TEST_ASSERT_LESS_THAN_INT8(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "alti8"
+            "trigger": "alti8",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than int16",
+            "annotation": "unity: assert less than int16",
             "contents": "TEST_ASSERT_LESS_THAN_INT16(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "alti16"
+            "trigger": "alti16",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than int32",
+            "annotation": "unity: assert less than int32",
             "contents": "TEST_ASSERT_LESS_THAN_INT32(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "alti32"
+            "trigger": "alti32",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than int64",
+            "annotation": "unity: assert less than int64",
             "contents": "TEST_ASSERT_LESS_THAN_INT64(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "alti64"
+            "trigger": "alti64",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than uint",
+            "annotation": "unity: assert less than uint",
             "contents": "TEST_ASSERT_LESS_THAN_UINT(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "altu"
+            "trigger": "altu",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than uint8",
+            "annotation": "unity: assert less than uint8",
             "contents": "TEST_ASSERT_LESS_THAN_UINT8(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "altu8"
+            "trigger": "altu8",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than uint16",
+            "annotation": "unity: assert less than uint16",
             "contents": "TEST_ASSERT_LESS_THAN_UINT16(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "altu16"
+            "trigger": "altu16",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than uint32",
+            "annotation": "unity: assert less than uint32",
             "contents": "TEST_ASSERT_LESS_THAN_UINT32(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "altu32"
+            "trigger": "altu32",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than uint64",
+            "annotation": "unity: assert less than uint64",
             "contents": "TEST_ASSERT_LESS_THAN_UINT64(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "altu64"
+            "trigger": "altu64",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than size_t",
+            "annotation": "unity: assert less than size_t",
             "contents": "TEST_ASSERT_LESS_THAN_size_t(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "altsz"
+            "trigger": "altsz",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than hex8",
+            "annotation": "unity: assert less than hex8",
             "contents": "TEST_ASSERT_LESS_THAN_HEX8(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "alth8"
+            "trigger": "alth8",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than hex16",
+            "annotation": "unity: assert less than hex16",
             "contents": "TEST_ASSERT_LESS_THAN_HEX16(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "alth16"
+            "trigger": "alth16",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than hex32",
+            "annotation": "unity: assert less than hex32",
             "contents": "TEST_ASSERT_LESS_THAN_HEX32(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "alth32"
+            "trigger": "alth32",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than hex64",
+            "annotation": "unity: assert less than hex64",
             "contents": "TEST_ASSERT_LESS_THAN_HEX64(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "alth64"
+            "trigger": "alth64",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than char",
+            "annotation": "unity: assert less than char",
             "contents": "TEST_ASSERT_LESS_THAN_CHAR(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "altc"
+            "trigger": "altc",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal",
+            "annotation": "unity: assert greater or equal",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agoe"
+            "trigger": "agoe",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal int",
+            "annotation": "unity: assert greater or equal int",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_INT(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agoei"
+            "trigger": "agoei",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal int8",
+            "annotation": "unity: assert greater or equal int8",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_INT8(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agoei8"
+            "trigger": "agoei8",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal int16",
+            "annotation": "unity: assert greater or equal int16",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_INT16(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agoei16"
+            "trigger": "agoei16",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal int32",
+            "annotation": "unity: assert greater or equal int32",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_INT32(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agoei32"
+            "trigger": "agoei32",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal int64",
+            "annotation": "unity: assert greater or equal int64",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_INT64(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agoei64"
+            "trigger": "agoei64",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal uint",
+            "annotation": "unity: assert greater or equal uint",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_UINT(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agoeu"
+            "trigger": "agoeu",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal uint8",
+            "annotation": "unity: assert greater or equal uint8",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_UINT8(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agoeu8"
+            "trigger": "agoeu8",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal uint16",
+            "annotation": "unity: assert greater or equal uint16",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_UINT16(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agoeu16"
+            "trigger": "agoeu16",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal uint32",
+            "annotation": "unity: assert greater or equal uint32",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_UINT32(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agoeu32"
+            "trigger": "agoeu32",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal uint64",
+            "annotation": "unity: assert greater or equal uint64",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_UINT64(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agoeu64"
+            "trigger": "agoeu64",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal size_t",
+            "annotation": "unity: assert greater or equal size_t",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_size_t(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agoesz"
+            "trigger": "agoesz",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal hex8",
+            "annotation": "unity: assert greater or equal hex8",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_HEX8(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agoeh8"
+            "trigger": "agoeh8",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal hex16",
+            "annotation": "unity: assert greater or equal hex16",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_HEX16(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agoeh16"
+            "trigger": "agoeh16",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal hex32",
+            "annotation": "unity: assert greater or equal hex32",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_HEX32(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agoeh32"
+            "trigger": "agoeh32",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal hex64",
+            "annotation": "unity: assert greater or equal hex64",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_HEX64(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agoeh64"
+            "trigger": "agoeh64",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal char",
+            "annotation": "unity: assert greater or equal char",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_CHAR(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agoec"
+            "trigger": "agoec",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal",
+            "annotation": "unity: assert less or equal",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aloe"
+            "trigger": "aloe",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal int",
+            "annotation": "unity: assert less or equal int",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_INT(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aloei"
+            "trigger": "aloei",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal int8",
+            "annotation": "unity: assert less or equal int8",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_INT8(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aloei8"
+            "trigger": "aloei8",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal int16",
+            "annotation": "unity: assert less or equal int16",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_INT16(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aloei16"
+            "trigger": "aloei16",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal int32",
+            "annotation": "unity: assert less or equal int32",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_INT32(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aloei32"
+            "trigger": "aloei32",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal int64",
+            "annotation": "unity: assert less or equal int64",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_INT64(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aloei64"
+            "trigger": "aloei64",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal uint",
+            "annotation": "unity: assert less or equal uint",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_UINT(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aloeu"
+            "trigger": "aloeu",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal uint8",
+            "annotation": "unity: assert less or equal uint8",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_UINT8(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aloeu8"
+            "trigger": "aloeu8",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal uint16",
+            "annotation": "unity: assert less or equal uint16",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_UINT16(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aloeu16"
+            "trigger": "aloeu16",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal uint32",
+            "annotation": "unity: assert less or equal uint32",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_UINT32(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aloeu32"
+            "trigger": "aloeu32",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal uint64",
+            "annotation": "unity: assert less or equal uint64",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_UINT64(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aloeu64"
+            "trigger": "aloeu64",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal size_t",
+            "annotation": "unity: assert less or equal size_t",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_size_t(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aloesz"
+            "trigger": "aloesz",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal hex8",
+            "annotation": "unity: assert less or equal hex8",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_HEX8(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aloeh8"
+            "trigger": "aloeh8",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal hex16",
+            "annotation": "unity: assert less or equal hex16",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_HEX16(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aloeh16"
+            "trigger": "aloeh16",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal hex32",
+            "annotation": "unity: assert less or equal hex32",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_HEX32(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aloeh32"
+            "trigger": "aloeh32",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal hex64",
+            "annotation": "unity: assert less or equal hex64",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_HEX64(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aloeh64"
+            "trigger": "aloeh64",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal char",
+            "annotation": "unity: assert less or equal char",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_CHAR(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aloec"
+            "trigger": "aloec",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert int within",
+            "annotation": "unity: assert int within",
             "contents": "TEST_ASSERT_INT_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
-            "kind": "snippet",
-            "trigger": "aiw"
+            "trigger": "aiw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert int8 within",
+            "annotation": "unity: assert int8 within",
             "contents": "TEST_ASSERT_INT8_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
-            "kind": "snippet",
-            "trigger": "ai8w"
+            "trigger": "ai8w",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert int16 within",
+            "annotation": "unity: assert int16 within",
             "contents": "TEST_ASSERT_INT16_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
-            "kind": "snippet",
-            "trigger": "ai16w"
+            "trigger": "ai16w",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert int32 within",
+            "annotation": "unity: assert int32 within",
             "contents": "TEST_ASSERT_INT32_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
-            "kind": "snippet",
-            "trigger": "ai32w"
+            "trigger": "ai32w",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert int64 within",
+            "annotation": "unity: assert int64 within",
             "contents": "TEST_ASSERT_INT64_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
-            "kind": "snippet",
-            "trigger": "ai64w"
+            "trigger": "ai64w",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert uint within",
+            "annotation": "unity: assert uint within",
             "contents": "TEST_ASSERT_UINT_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
-            "kind": "snippet",
-            "trigger": "auw"
+            "trigger": "auw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert uint8 within",
+            "annotation": "unity: assert uint8 within",
             "contents": "TEST_ASSERT_UINT8_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
-            "kind": "snippet",
-            "trigger": "au8w"
+            "trigger": "au8w",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert uint16 within",
+            "annotation": "unity: assert uint16 within",
             "contents": "TEST_ASSERT_UINT16_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
-            "kind": "snippet",
-            "trigger": "au16w"
+            "trigger": "au16w",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert uint32 within",
+            "annotation": "unity: assert uint32 within",
             "contents": "TEST_ASSERT_UINT32_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
-            "kind": "snippet",
-            "trigger": "au32w"
+            "trigger": "au32w",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert uint64 within",
+            "annotation": "unity: assert uint64 within",
             "contents": "TEST_ASSERT_UINT64_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
-            "kind": "snippet",
-            "trigger": "au64w"
+            "trigger": "au64w",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert size_t within",
+            "annotation": "unity: assert size_t within",
             "contents": "TEST_ASSERT_size_t_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
-            "kind": "snippet",
-            "trigger": "aszw"
+            "trigger": "aszw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert hex within",
+            "annotation": "unity: assert hex within",
             "contents": "TEST_ASSERT_HEX_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
-            "kind": "snippet",
-            "trigger": "ahw"
+            "trigger": "ahw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert hex8 within",
+            "annotation": "unity: assert hex8 within",
             "contents": "TEST_ASSERT_HEX8_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
-            "kind": "snippet",
-            "trigger": "ah8w"
+            "trigger": "ah8w",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert hex16 within",
+            "annotation": "unity: assert hex16 within",
             "contents": "TEST_ASSERT_HEX16_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
-            "kind": "snippet",
-            "trigger": "ah16w"
+            "trigger": "ah16w",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert hex32 within",
+            "annotation": "unity: assert hex32 within",
             "contents": "TEST_ASSERT_HEX32_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
-            "kind": "snippet",
-            "trigger": "ah32w"
+            "trigger": "ah32w",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert hex64 within",
+            "annotation": "unity: assert hex64 within",
             "contents": "TEST_ASSERT_HEX64_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
-            "kind": "snippet",
-            "trigger": "ah64w"
+            "trigger": "ah64w",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert char within",
+            "annotation": "unity: assert char within",
             "contents": "TEST_ASSERT_CHAR_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
-            "kind": "snippet",
-            "trigger": "acw"
+            "trigger": "acw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert int array within",
+            "annotation": "unity: assert int array within",
             "contents": "TEST_ASSERT_INT_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
-            "kind": "snippet",
-            "trigger": "aiaw"
+            "trigger": "aiaw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert int8 array within",
+            "annotation": "unity: assert int8 array within",
             "contents": "TEST_ASSERT_INT8_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
-            "kind": "snippet",
-            "trigger": "ai8aw"
+            "trigger": "ai8aw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert int16 array within",
+            "annotation": "unity: assert int16 array within",
             "contents": "TEST_ASSERT_INT16_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
-            "kind": "snippet",
-            "trigger": "ai16aw"
+            "trigger": "ai16aw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert int32 array within",
+            "annotation": "unity: assert int32 array within",
             "contents": "TEST_ASSERT_INT32_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
-            "kind": "snippet",
-            "trigger": "ai32aw"
+            "trigger": "ai32aw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert int64 array within",
+            "annotation": "unity: assert int64 array within",
             "contents": "TEST_ASSERT_INT64_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
-            "kind": "snippet",
-            "trigger": "ai64aw"
+            "trigger": "ai64aw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert uint array within",
+            "annotation": "unity: assert uint array within",
             "contents": "TEST_ASSERT_UINT_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
-            "kind": "snippet",
-            "trigger": "auaw"
+            "trigger": "auaw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert uint8 array within",
+            "annotation": "unity: assert uint8 array within",
             "contents": "TEST_ASSERT_UINT8_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
-            "kind": "snippet",
-            "trigger": "au8aw"
+            "trigger": "au8aw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert uint16 array within",
+            "annotation": "unity: assert uint16 array within",
             "contents": "TEST_ASSERT_UINT16_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
-            "kind": "snippet",
-            "trigger": "au16aw"
+            "trigger": "au16aw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert uint32 array within",
+            "annotation": "unity: assert uint32 array within",
             "contents": "TEST_ASSERT_UINT32_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
-            "kind": "snippet",
-            "trigger": "au32aw"
+            "trigger": "au32aw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert uint64 array within",
+            "annotation": "unity: assert uint64 array within",
             "contents": "TEST_ASSERT_UINT64_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
-            "kind": "snippet",
-            "trigger": "au64aw"
+            "trigger": "au64aw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert size_t array within",
+            "annotation": "unity: assert size_t array within",
             "contents": "TEST_ASSERT_size_t_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
-            "kind": "snippet",
-            "trigger": "aszaw"
+            "trigger": "aszaw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert hex array within",
+            "annotation": "unity: assert hex array within",
             "contents": "TEST_ASSERT_HEX_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
-            "kind": "snippet",
-            "trigger": "ahaw"
+            "trigger": "ahaw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert hex8 array within",
+            "annotation": "unity: assert hex8 array within",
             "contents": "TEST_ASSERT_HEX8_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
-            "kind": "snippet",
-            "trigger": "ah8aw"
+            "trigger": "ah8aw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert hex16 array within",
+            "annotation": "unity: assert hex16 array within",
             "contents": "TEST_ASSERT_HEX16_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
-            "kind": "snippet",
-            "trigger": "ah16aw"
+            "trigger": "ah16aw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert hex32 array within",
+            "annotation": "unity: assert hex32 array within",
             "contents": "TEST_ASSERT_HEX32_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
-            "kind": "snippet",
-            "trigger": "ah32aw"
+            "trigger": "ah32aw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert hex64 array within",
+            "annotation": "unity: assert hex64 array within",
             "contents": "TEST_ASSERT_HEX64_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
-            "kind": "snippet",
-            "trigger": "ah64aw"
+            "trigger": "ah64aw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert char array within",
+            "annotation": "unity: assert char array within",
             "contents": "TEST_ASSERT_CHAR_ARRAY_WITHIN(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements});",
-            "kind": "snippet",
-            "trigger": "acaw"
+            "trigger": "acaw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal ptr",
+            "annotation": "unity: assert equal ptr",
             "contents": "TEST_ASSERT_EQUAL_PTR(${1:expected}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aep"
+            "trigger": "aep",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal string",
+            "annotation": "unity: assert equal string",
             "contents": "TEST_ASSERT_EQUAL_STRING(${1:expected}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aes"
+            "trigger": "aes",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal string len",
+            "annotation": "unity: assert equal string len",
             "contents": "TEST_ASSERT_EQUAL_STRING_LEN(${1:expected}, ${2:actual}, ${3:len});",
-            "kind": "snippet",
-            "trigger": "aesl"
+            "trigger": "aesl",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal memory",
+            "annotation": "unity: assert equal memory",
             "contents": "TEST_ASSERT_EQUAL_MEMORY(${1:expected}, ${2:actual}, ${3:len});",
-            "kind": "snippet",
-            "trigger": "aem"
+            "trigger": "aem",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal int array",
+            "annotation": "unity: assert equal int array",
             "contents": "TEST_ASSERT_EQUAL_INT_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeia"
+            "trigger": "aeia",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal int8 array",
+            "annotation": "unity: assert equal int8 array",
             "contents": "TEST_ASSERT_EQUAL_INT8_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aei8a"
+            "trigger": "aei8a",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal int16 array",
+            "annotation": "unity: assert equal int16 array",
             "contents": "TEST_ASSERT_EQUAL_INT16_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aei16a"
+            "trigger": "aei16a",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal int32 array",
+            "annotation": "unity: assert equal int32 array",
             "contents": "TEST_ASSERT_EQUAL_INT32_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aei32a"
+            "trigger": "aei32a",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal int64 array",
+            "annotation": "unity: assert equal int64 array",
             "contents": "TEST_ASSERT_EQUAL_INT64_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aei64a"
+            "trigger": "aei64a",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal uint array",
+            "annotation": "unity: assert equal uint array",
             "contents": "TEST_ASSERT_EQUAL_UINT_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeua"
+            "trigger": "aeua",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal uint8 array",
+            "annotation": "unity: assert equal uint8 array",
             "contents": "TEST_ASSERT_EQUAL_UINT8_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeu8a"
+            "trigger": "aeu8a",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal uint16 array",
+            "annotation": "unity: assert equal uint16 array",
             "contents": "TEST_ASSERT_EQUAL_UINT16_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeu16a"
+            "trigger": "aeu16a",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal uint32 array",
+            "annotation": "unity: assert equal uint32 array",
             "contents": "TEST_ASSERT_EQUAL_UINT32_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeu32a"
+            "trigger": "aeu32a",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal uint64 array",
+            "annotation": "unity: assert equal uint64 array",
             "contents": "TEST_ASSERT_EQUAL_UINT64_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeu64a"
+            "trigger": "aeu64a",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal size_t array",
+            "annotation": "unity: assert equal size_t array",
             "contents": "TEST_ASSERT_EQUAL_size_t_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aesza"
+            "trigger": "aesza",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal hex array",
+            "annotation": "unity: assert equal hex array",
             "contents": "TEST_ASSERT_EQUAL_HEX_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeha"
+            "trigger": "aeha",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal hex8 array",
+            "annotation": "unity: assert equal hex8 array",
             "contents": "TEST_ASSERT_EQUAL_HEX8_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeh8a"
+            "trigger": "aeh8a",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal hex16 array",
+            "annotation": "unity: assert equal hex16 array",
             "contents": "TEST_ASSERT_EQUAL_HEX16_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeh16a"
+            "trigger": "aeh16a",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal hex32 array",
+            "annotation": "unity: assert equal hex32 array",
             "contents": "TEST_ASSERT_EQUAL_HEX32_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeh32a"
+            "trigger": "aeh32a",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal hex64 array",
+            "annotation": "unity: assert equal hex64 array",
             "contents": "TEST_ASSERT_EQUAL_HEX64_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeh64a"
+            "trigger": "aeh64a",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal ptr array",
+            "annotation": "unity: assert equal ptr array",
             "contents": "TEST_ASSERT_EQUAL_PTR_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aepa"
+            "trigger": "aepa",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal string array",
+            "annotation": "unity: assert equal string array",
             "contents": "TEST_ASSERT_EQUAL_STRING_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aesa"
+            "trigger": "aesa",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal memory array",
+            "annotation": "unity: assert equal memory array",
             "contents": "TEST_ASSERT_EQUAL_MEMORY_ARRAY(${1:expected}, ${2:actual}, ${3:len}, ${4:num_elements});",
-            "kind": "snippet",
-            "trigger": "aema"
+            "trigger": "aema",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal char array",
+            "annotation": "unity: assert equal char array",
             "contents": "TEST_ASSERT_EQUAL_CHAR_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeca"
+            "trigger": "aeca",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal int",
+            "annotation": "unity: assert each equal int",
             "contents": "TEST_ASSERT_EACH_EQUAL_INT(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeei"
+            "trigger": "aeei",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal int8",
+            "annotation": "unity: assert each equal int8",
             "contents": "TEST_ASSERT_EACH_EQUAL_INT8(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeei8"
+            "trigger": "aeei8",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal int16",
+            "annotation": "unity: assert each equal int16",
             "contents": "TEST_ASSERT_EACH_EQUAL_INT16(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeei16"
+            "trigger": "aeei16",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal int32",
+            "annotation": "unity: assert each equal int32",
             "contents": "TEST_ASSERT_EACH_EQUAL_INT32(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeei32"
+            "trigger": "aeei32",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal int64",
+            "annotation": "unity: assert each equal int64",
             "contents": "TEST_ASSERT_EACH_EQUAL_INT64(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeei64"
+            "trigger": "aeei64",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal uint",
+            "annotation": "unity: assert each equal uint",
             "contents": "TEST_ASSERT_EACH_EQUAL_UINT(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeeu"
+            "trigger": "aeeu",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal uint8",
+            "annotation": "unity: assert each equal uint8",
             "contents": "TEST_ASSERT_EACH_EQUAL_UINT8(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeeu8"
+            "trigger": "aeeu8",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal uint16",
+            "annotation": "unity: assert each equal uint16",
             "contents": "TEST_ASSERT_EACH_EQUAL_UINT16(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeeu16"
+            "trigger": "aeeu16",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal uint32",
+            "annotation": "unity: assert each equal uint32",
             "contents": "TEST_ASSERT_EACH_EQUAL_UINT32(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeeu32"
+            "trigger": "aeeu32",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal uint64",
+            "annotation": "unity: assert each equal uint64",
             "contents": "TEST_ASSERT_EACH_EQUAL_UINT64(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeeu64"
+            "trigger": "aeeu64",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal size_t",
+            "annotation": "unity: assert each equal size_t",
             "contents": "TEST_ASSERT_EACH_EQUAL_size_t(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeesz"
+            "trigger": "aeesz",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal hex",
+            "annotation": "unity: assert each equal hex",
             "contents": "TEST_ASSERT_EACH_EQUAL_HEX(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeeh"
+            "trigger": "aeeh",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal hex8",
+            "annotation": "unity: assert each equal hex8",
             "contents": "TEST_ASSERT_EACH_EQUAL_HEX8(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeeh8"
+            "trigger": "aeeh8",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal hex16",
+            "annotation": "unity: assert each equal hex16",
             "contents": "TEST_ASSERT_EACH_EQUAL_HEX16(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeeh16"
+            "trigger": "aeeh16",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal hex32",
+            "annotation": "unity: assert each equal hex32",
             "contents": "TEST_ASSERT_EACH_EQUAL_HEX32(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeeh32"
+            "trigger": "aeeh32",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal hex64",
+            "annotation": "unity: assert each equal hex64",
             "contents": "TEST_ASSERT_EACH_EQUAL_HEX64(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeeh64"
+            "trigger": "aeeh64",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal ptr",
+            "annotation": "unity: assert each equal ptr",
             "contents": "TEST_ASSERT_EACH_EQUAL_PTR(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeep"
+            "trigger": "aeep",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal string",
+            "annotation": "unity: assert each equal string",
             "contents": "TEST_ASSERT_EACH_EQUAL_STRING(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aees"
+            "trigger": "aees",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal memory",
+            "annotation": "unity: assert each equal memory",
             "contents": "TEST_ASSERT_EACH_EQUAL_MEMORY(${1:expected}, ${2:actual}, ${3:len}, ${4:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeem"
+            "trigger": "aeem",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal char",
+            "annotation": "unity: assert each equal char",
             "contents": "TEST_ASSERT_EACH_EQUAL_CHAR(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeec"
+            "trigger": "aeec",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert float within",
+            "annotation": "unity: assert float within",
             "contents": "TEST_ASSERT_FLOAT_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
-            "kind": "snippet",
-            "trigger": "afw"
+            "trigger": "afw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert float not within",
+            "annotation": "unity: assert float not within",
             "contents": "TEST_ASSERT_FLOAT_NOT_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
-            "kind": "snippet",
-            "trigger": "afnw"
+            "trigger": "afnw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal float",
+            "annotation": "unity: assert equal float",
             "contents": "TEST_ASSERT_EQUAL_FLOAT(${1:expected}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aef"
+            "trigger": "aef",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal float",
+            "annotation": "unity: assert not equal float",
             "contents": "TEST_ASSERT_NOT_EQUAL_FLOAT(${1:expected}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "anef"
+            "trigger": "anef",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal float array",
+            "annotation": "unity: assert equal float array",
             "contents": "TEST_ASSERT_EQUAL_FLOAT_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aefa"
+            "trigger": "aefa",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal float",
+            "annotation": "unity: assert each equal float",
             "contents": "TEST_ASSERT_EACH_EQUAL_FLOAT(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeef"
+            "trigger": "aeef",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than float",
+            "annotation": "unity: assert greater than float",
             "contents": "TEST_ASSERT_GREATER_THAN_FLOAT(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agtf"
+            "trigger": "agtf",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal float",
+            "annotation": "unity: assert greater or equal float",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_FLOAT(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agoef"
+            "trigger": "agoef",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than float",
+            "annotation": "unity: assert less than float",
             "contents": "TEST_ASSERT_LESS_THAN_FLOAT(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "altf"
+            "trigger": "altf",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal float",
+            "annotation": "unity: assert less or equal float",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_FLOAT(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aloef"
+            "trigger": "aloef",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert float is inf",
+            "annotation": "unity: assert float is inf",
             "contents": "TEST_ASSERT_FLOAT_IS_INF(${1:actual});",
-            "kind": "snippet",
-            "trigger": "afii"
+            "trigger": "afii",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert float is neg inf",
+            "annotation": "unity: assert float is neg inf",
             "contents": "TEST_ASSERT_FLOAT_IS_NEG_INF(${1:actual});",
-            "kind": "snippet",
-            "trigger": "afini"
+            "trigger": "afini",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert float is nan",
+            "annotation": "unity: assert float is nan",
             "contents": "TEST_ASSERT_FLOAT_IS_NAN(${1:actual});",
-            "kind": "snippet",
-            "trigger": "afin"
+            "trigger": "afin",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert float is determinate",
+            "annotation": "unity: assert float is determinate",
             "contents": "TEST_ASSERT_FLOAT_IS_DETERMINATE(${1:actual});",
-            "kind": "snippet",
-            "trigger": "afid"
+            "trigger": "afid",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert float is not inf",
+            "annotation": "unity: assert float is not inf",
             "contents": "TEST_ASSERT_FLOAT_IS_NOT_INF(${1:actual});",
-            "kind": "snippet",
-            "trigger": "afini"
+            "trigger": "afini",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert float is not neg inf",
+            "annotation": "unity: assert float is not neg inf",
             "contents": "TEST_ASSERT_FLOAT_IS_NOT_NEG_INF(${1:actual});",
-            "kind": "snippet",
-            "trigger": "afinni"
+            "trigger": "afinni",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert float is not nan",
+            "annotation": "unity: assert float is not nan",
             "contents": "TEST_ASSERT_FLOAT_IS_NOT_NAN(${1:actual});",
-            "kind": "snippet",
-            "trigger": "afinn"
+            "trigger": "afinn",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert float is not determinate",
+            "annotation": "unity: assert float is not determinate",
             "contents": "TEST_ASSERT_FLOAT_IS_NOT_DETERMINATE(${1:actual});",
-            "kind": "snippet",
-            "trigger": "afind"
+            "trigger": "afind",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert double within",
+            "annotation": "unity: assert double within",
             "contents": "TEST_ASSERT_DOUBLE_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
-            "kind": "snippet",
-            "trigger": "adw"
+            "trigger": "adw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert double not within",
+            "annotation": "unity: assert double not within",
             "contents": "TEST_ASSERT_DOUBLE_NOT_WITHIN(${1:delta}, ${2:expected}, ${3:actual});",
-            "kind": "snippet",
-            "trigger": "adnw"
+            "trigger": "adnw",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal double",
+            "annotation": "unity: assert equal double",
             "contents": "TEST_ASSERT_EQUAL_DOUBLE(${1:expected}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aed"
+            "trigger": "aed",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal double",
+            "annotation": "unity: assert not equal double",
             "contents": "TEST_ASSERT_NOT_EQUAL_DOUBLE(${1:expected}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aned"
+            "trigger": "aned",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal double array",
+            "annotation": "unity: assert equal double array",
             "contents": "TEST_ASSERT_EQUAL_DOUBLE_ARRAY(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeda"
+            "trigger": "aeda",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal double",
+            "annotation": "unity: assert each equal double",
             "contents": "TEST_ASSERT_EACH_EQUAL_DOUBLE(${1:expected}, ${2:actual}, ${3:num_elements});",
-            "kind": "snippet",
-            "trigger": "aeed"
+            "trigger": "aeed",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than double",
+            "annotation": "unity: assert greater than double",
             "contents": "TEST_ASSERT_GREATER_THAN_DOUBLE(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agtd"
+            "trigger": "agtd",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal double",
+            "annotation": "unity: assert greater or equal double",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_DOUBLE(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "agoed"
+            "trigger": "agoed",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than double",
+            "annotation": "unity: assert less than double",
             "contents": "TEST_ASSERT_LESS_THAN_DOUBLE(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "altd"
+            "trigger": "altd",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal double",
+            "annotation": "unity: assert less or equal double",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_DOUBLE(${1:threshold}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "aloed"
+            "trigger": "aloed",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert double is inf",
+            "annotation": "unity: assert double is inf",
             "contents": "TEST_ASSERT_DOUBLE_IS_INF(${1:actual});",
-            "kind": "snippet",
-            "trigger": "adii"
+            "trigger": "adii",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert double is neg inf",
+            "annotation": "unity: assert double is neg inf",
             "contents": "TEST_ASSERT_DOUBLE_IS_NEG_INF(${1:actual});",
-            "kind": "snippet",
-            "trigger": "adini"
+            "trigger": "adini",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert double is nan",
+            "annotation": "unity: assert double is nan",
             "contents": "TEST_ASSERT_DOUBLE_IS_NAN(${1:actual});",
-            "kind": "snippet",
-            "trigger": "adin"
+            "trigger": "adin",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert double is determinate",
+            "annotation": "unity: assert double is determinate",
             "contents": "TEST_ASSERT_DOUBLE_IS_DETERMINATE(${1:actual});",
-            "kind": "snippet",
-            "trigger": "adid"
+            "trigger": "adid",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert double is not inf",
+            "annotation": "unity: assert double is not inf",
             "contents": "TEST_ASSERT_DOUBLE_IS_NOT_INF(${1:actual});",
-            "kind": "snippet",
-            "trigger": "adini"
+            "trigger": "adini",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert double is not neg inf",
+            "annotation": "unity: assert double is not neg inf",
             "contents": "TEST_ASSERT_DOUBLE_IS_NOT_NEG_INF(${1:actual});",
-            "kind": "snippet",
-            "trigger": "adinni"
+            "trigger": "adinni",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert double is not nan",
+            "annotation": "unity: assert double is not nan",
             "contents": "TEST_ASSERT_DOUBLE_IS_NOT_NAN(${1:actual});",
-            "kind": "snippet",
-            "trigger": "adinn"
+            "trigger": "adinn",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert double is not determinate",
+            "annotation": "unity: assert double is not determinate",
             "contents": "TEST_ASSERT_DOUBLE_IS_NOT_DETERMINATE(${1:actual});",
-            "kind": "snippet",
-            "trigger": "adind"
+            "trigger": "adind",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal",
+            "annotation": "unity: assert equal",
             "contents": "TEST_ASSERT_EQUAL(${1:expected}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "ae"
+            "trigger": "ae",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal",
+            "annotation": "unity: assert not equal",
             "contents": "TEST_ASSERT_NOT_EQUAL(${1:expected}, ${2:actual});",
-            "kind": "snippet",
-            "trigger": "ane"
+            "trigger": "ane",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert message",
+            "annotation": "unity: assert message",
             "contents": "TEST_ASSERT_MESSAGE(${1:condition}, \"${2:message}\");",
-            "kind": "snippet",
-            "trigger": "asm"
+            "trigger": "asm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert true message",
+            "annotation": "unity: assert true message",
             "contents": "TEST_ASSERT_TRUE_MESSAGE(${1:condition}, \"${2:message}\");",
-            "kind": "snippet",
-            "trigger": "atm"
+            "trigger": "atm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert unless message",
+            "annotation": "unity: assert unless message",
             "contents": "TEST_ASSERT_UNLESS_MESSAGE(${1:condition}, \"${2:message}\");",
-            "kind": "snippet",
-            "trigger": "aum"
+            "trigger": "aum",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert false message",
+            "annotation": "unity: assert false message",
             "contents": "TEST_ASSERT_FALSE_MESSAGE(${1:condition}, \"${2:message}\");",
-            "kind": "snippet",
-            "trigger": "afm"
+            "trigger": "afm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert null message",
+            "annotation": "unity: assert null message",
             "contents": "TEST_ASSERT_NULL_MESSAGE(${1:pointer}, \"${2:message}\");",
-            "kind": "snippet",
-            "trigger": "anm"
+            "trigger": "anm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not null message",
+            "annotation": "unity: assert not null message",
             "contents": "TEST_ASSERT_NOT_NULL_MESSAGE(${1:pointer}, \"${2:message}\");",
-            "kind": "snippet",
-            "trigger": "annm"
+            "trigger": "annm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert empty message",
+            "annotation": "unity: assert empty message",
             "contents": "TEST_ASSERT_EMPTY_MESSAGE(${1:pointer}, \"${2:message}\");",
-            "kind": "snippet",
-            "trigger": "aem"
+            "trigger": "aem",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not empty message",
+            "annotation": "unity: assert not empty message",
             "contents": "TEST_ASSERT_NOT_EMPTY_MESSAGE(${1:pointer}, \"${2:message}\");",
-            "kind": "snippet",
-            "trigger": "anem"
+            "trigger": "anem",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal int message",
+            "annotation": "unity: assert equal int message",
             "contents": "TEST_ASSERT_EQUAL_INT_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aeim"
+            "trigger": "aeim",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal int8 message",
+            "annotation": "unity: assert equal int8 message",
             "contents": "TEST_ASSERT_EQUAL_INT8_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aei8m"
+            "trigger": "aei8m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal int16 message",
+            "annotation": "unity: assert equal int16 message",
             "contents": "TEST_ASSERT_EQUAL_INT16_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aei16m"
+            "trigger": "aei16m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal int32 message",
+            "annotation": "unity: assert equal int32 message",
             "contents": "TEST_ASSERT_EQUAL_INT32_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aei32m"
+            "trigger": "aei32m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal int64 message",
+            "annotation": "unity: assert equal int64 message",
             "contents": "TEST_ASSERT_EQUAL_INT64_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aei64m"
+            "trigger": "aei64m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal uint message",
+            "annotation": "unity: assert equal uint message",
             "contents": "TEST_ASSERT_EQUAL_UINT_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aeum"
+            "trigger": "aeum",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal uint8 message",
+            "annotation": "unity: assert equal uint8 message",
             "contents": "TEST_ASSERT_EQUAL_UINT8_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aeu8m"
+            "trigger": "aeu8m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal uint16 message",
+            "annotation": "unity: assert equal uint16 message",
             "contents": "TEST_ASSERT_EQUAL_UINT16_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aeu16m"
+            "trigger": "aeu16m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal uint32 message",
+            "annotation": "unity: assert equal uint32 message",
             "contents": "TEST_ASSERT_EQUAL_UINT32_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aeu32m"
+            "trigger": "aeu32m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal uint64 message",
+            "annotation": "unity: assert equal uint64 message",
             "contents": "TEST_ASSERT_EQUAL_UINT64_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aeu64m"
+            "trigger": "aeu64m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal size_t message",
+            "annotation": "unity: assert equal size_t message",
             "contents": "TEST_ASSERT_EQUAL_size_t_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aeszm"
+            "trigger": "aeszm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal hex message",
+            "annotation": "unity: assert equal hex message",
             "contents": "TEST_ASSERT_EQUAL_HEX_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aehm"
+            "trigger": "aehm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal hex8 message",
+            "annotation": "unity: assert equal hex8 message",
             "contents": "TEST_ASSERT_EQUAL_HEX8_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aeh8m"
+            "trigger": "aeh8m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal hex16 message",
+            "annotation": "unity: assert equal hex16 message",
             "contents": "TEST_ASSERT_EQUAL_HEX16_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aeh16m"
+            "trigger": "aeh16m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal hex32 message",
+            "annotation": "unity: assert equal hex32 message",
             "contents": "TEST_ASSERT_EQUAL_HEX32_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aeh32m"
+            "trigger": "aeh32m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal hex64 message",
+            "annotation": "unity: assert equal hex64 message",
             "contents": "TEST_ASSERT_EQUAL_HEX64_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aeh64m"
+            "trigger": "aeh64m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert bits message",
+            "annotation": "unity: assert bits message",
             "contents": "TEST_ASSERT_BITS_MESSAGE(${1:mask}, ${2:expected}, ${3:actual}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "abm"
+            "trigger": "abm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert bits high message",
+            "annotation": "unity: assert bits high message",
             "contents": "TEST_ASSERT_BITS_HIGH_MESSAGE(${1:mask}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "abhm"
+            "trigger": "abhm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert bits low message",
+            "annotation": "unity: assert bits low message",
             "contents": "TEST_ASSERT_BITS_LOW_MESSAGE(${1:mask}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "ablm"
+            "trigger": "ablm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert bit high message",
+            "annotation": "unity: assert bit high message",
             "contents": "TEST_ASSERT_BIT_HIGH_MESSAGE(${1:bit}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "abhm"
+            "trigger": "abhm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert bit low message",
+            "annotation": "unity: assert bit low message",
             "contents": "TEST_ASSERT_BIT_LOW_MESSAGE(${1:bit}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "ablm"
+            "trigger": "ablm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal char message",
+            "annotation": "unity: assert equal char message",
             "contents": "TEST_ASSERT_EQUAL_CHAR_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aecm"
+            "trigger": "aecm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal int message",
+            "annotation": "unity: assert not equal int message",
             "contents": "TEST_ASSERT_NOT_EQUAL_INT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aneim"
+            "trigger": "aneim",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal int8 message",
+            "annotation": "unity: assert not equal int8 message",
             "contents": "TEST_ASSERT_NOT_EQUAL_INT8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "anei8m"
+            "trigger": "anei8m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal int16 message",
+            "annotation": "unity: assert not equal int16 message",
             "contents": "TEST_ASSERT_NOT_EQUAL_INT16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "anei16m"
+            "trigger": "anei16m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal int32 message",
+            "annotation": "unity: assert not equal int32 message",
             "contents": "TEST_ASSERT_NOT_EQUAL_INT32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "anei32m"
+            "trigger": "anei32m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal int64 message",
+            "annotation": "unity: assert not equal int64 message",
             "contents": "TEST_ASSERT_NOT_EQUAL_INT64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "anei64m"
+            "trigger": "anei64m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal uint message",
+            "annotation": "unity: assert not equal uint message",
             "contents": "TEST_ASSERT_NOT_EQUAL_UINT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aneum"
+            "trigger": "aneum",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal uint8 message",
+            "annotation": "unity: assert not equal uint8 message",
             "contents": "TEST_ASSERT_NOT_EQUAL_UINT8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aneu8m"
+            "trigger": "aneu8m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal uint16 message",
+            "annotation": "unity: assert not equal uint16 message",
             "contents": "TEST_ASSERT_NOT_EQUAL_UINT16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aneu16m"
+            "trigger": "aneu16m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal uint32 message",
+            "annotation": "unity: assert not equal uint32 message",
             "contents": "TEST_ASSERT_NOT_EQUAL_UINT32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aneu32m"
+            "trigger": "aneu32m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal uint64 message",
+            "annotation": "unity: assert not equal uint64 message",
             "contents": "TEST_ASSERT_NOT_EQUAL_UINT64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aneu64m"
+            "trigger": "aneu64m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal size_t message",
+            "annotation": "unity: assert not equal size_t message",
             "contents": "TEST_ASSERT_NOT_EQUAL_size_t_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aneszm"
+            "trigger": "aneszm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal hex8 message",
+            "annotation": "unity: assert not equal hex8 message",
             "contents": "TEST_ASSERT_NOT_EQUAL_HEX8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aneh8m"
+            "trigger": "aneh8m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal hex16 message",
+            "annotation": "unity: assert not equal hex16 message",
             "contents": "TEST_ASSERT_NOT_EQUAL_HEX16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aneh16m"
+            "trigger": "aneh16m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal hex32 message",
+            "annotation": "unity: assert not equal hex32 message",
             "contents": "TEST_ASSERT_NOT_EQUAL_HEX32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aneh32m"
+            "trigger": "aneh32m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal hex64 message",
+            "annotation": "unity: assert not equal hex64 message",
             "contents": "TEST_ASSERT_NOT_EQUAL_HEX64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aneh64m"
+            "trigger": "aneh64m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal char message",
+            "annotation": "unity: assert not equal char message",
             "contents": "TEST_ASSERT_NOT_EQUAL_CHAR_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "anecm"
+            "trigger": "anecm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than message",
+            "annotation": "unity: assert greater than message",
             "contents": "TEST_ASSERT_GREATER_THAN_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agtm"
+            "trigger": "agtm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than int message",
+            "annotation": "unity: assert greater than int message",
             "contents": "TEST_ASSERT_GREATER_THAN_INT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agtim"
+            "trigger": "agtim",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than int8 message",
+            "annotation": "unity: assert greater than int8 message",
             "contents": "TEST_ASSERT_GREATER_THAN_INT8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agti8m"
+            "trigger": "agti8m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than int16 message",
+            "annotation": "unity: assert greater than int16 message",
             "contents": "TEST_ASSERT_GREATER_THAN_INT16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agti16m"
+            "trigger": "agti16m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than int32 message",
+            "annotation": "unity: assert greater than int32 message",
             "contents": "TEST_ASSERT_GREATER_THAN_INT32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agti32m"
+            "trigger": "agti32m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than int64 message",
+            "annotation": "unity: assert greater than int64 message",
             "contents": "TEST_ASSERT_GREATER_THAN_INT64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agti64m"
+            "trigger": "agti64m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than uint message",
+            "annotation": "unity: assert greater than uint message",
             "contents": "TEST_ASSERT_GREATER_THAN_UINT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agtum"
+            "trigger": "agtum",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than uint8 message",
+            "annotation": "unity: assert greater than uint8 message",
             "contents": "TEST_ASSERT_GREATER_THAN_UINT8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agtu8m"
+            "trigger": "agtu8m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than uint16 message",
+            "annotation": "unity: assert greater than uint16 message",
             "contents": "TEST_ASSERT_GREATER_THAN_UINT16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agtu16m"
+            "trigger": "agtu16m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than uint32 message",
+            "annotation": "unity: assert greater than uint32 message",
             "contents": "TEST_ASSERT_GREATER_THAN_UINT32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agtu32m"
+            "trigger": "agtu32m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than uint64 message",
+            "annotation": "unity: assert greater than uint64 message",
             "contents": "TEST_ASSERT_GREATER_THAN_UINT64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agtu64m"
+            "trigger": "agtu64m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than size_t message",
+            "annotation": "unity: assert greater than size_t message",
             "contents": "TEST_ASSERT_GREATER_THAN_size_t_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agtszm"
+            "trigger": "agtszm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than hex8 message",
+            "annotation": "unity: assert greater than hex8 message",
             "contents": "TEST_ASSERT_GREATER_THAN_HEX8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agth8m"
+            "trigger": "agth8m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than hex16 message",
+            "annotation": "unity: assert greater than hex16 message",
             "contents": "TEST_ASSERT_GREATER_THAN_HEX16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agth16m"
+            "trigger": "agth16m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than hex32 message",
+            "annotation": "unity: assert greater than hex32 message",
             "contents": "TEST_ASSERT_GREATER_THAN_HEX32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agth32m"
+            "trigger": "agth32m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than hex64 message",
+            "annotation": "unity: assert greater than hex64 message",
             "contents": "TEST_ASSERT_GREATER_THAN_HEX64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agth64m"
+            "trigger": "agth64m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than char message",
+            "annotation": "unity: assert greater than char message",
             "contents": "TEST_ASSERT_GREATER_THAN_CHAR_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agtcm"
+            "trigger": "agtcm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than message",
+            "annotation": "unity: assert less than message",
             "contents": "TEST_ASSERT_LESS_THAN_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "altm"
+            "trigger": "altm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than int message",
+            "annotation": "unity: assert less than int message",
             "contents": "TEST_ASSERT_LESS_THAN_INT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "altim"
+            "trigger": "altim",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than int8 message",
+            "annotation": "unity: assert less than int8 message",
             "contents": "TEST_ASSERT_LESS_THAN_INT8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "alti8m"
+            "trigger": "alti8m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than int16 message",
+            "annotation": "unity: assert less than int16 message",
             "contents": "TEST_ASSERT_LESS_THAN_INT16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "alti16m"
+            "trigger": "alti16m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than int32 message",
+            "annotation": "unity: assert less than int32 message",
             "contents": "TEST_ASSERT_LESS_THAN_INT32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "alti32m"
+            "trigger": "alti32m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than int64 message",
+            "annotation": "unity: assert less than int64 message",
             "contents": "TEST_ASSERT_LESS_THAN_INT64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "alti64m"
+            "trigger": "alti64m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than uint message",
+            "annotation": "unity: assert less than uint message",
             "contents": "TEST_ASSERT_LESS_THAN_UINT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "altum"
+            "trigger": "altum",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than uint8 message",
+            "annotation": "unity: assert less than uint8 message",
             "contents": "TEST_ASSERT_LESS_THAN_UINT8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "altu8m"
+            "trigger": "altu8m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than uint16 message",
+            "annotation": "unity: assert less than uint16 message",
             "contents": "TEST_ASSERT_LESS_THAN_UINT16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "altu16m"
+            "trigger": "altu16m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than uint32 message",
+            "annotation": "unity: assert less than uint32 message",
             "contents": "TEST_ASSERT_LESS_THAN_UINT32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "altu32m"
+            "trigger": "altu32m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than uint64 message",
+            "annotation": "unity: assert less than uint64 message",
             "contents": "TEST_ASSERT_LESS_THAN_UINT64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "altu64m"
+            "trigger": "altu64m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than size_t message",
+            "annotation": "unity: assert less than size_t message",
             "contents": "TEST_ASSERT_LESS_THAN_size_t_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "altszm"
+            "trigger": "altszm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than hex8 message",
+            "annotation": "unity: assert less than hex8 message",
             "contents": "TEST_ASSERT_LESS_THAN_HEX8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "alth8m"
+            "trigger": "alth8m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than hex16 message",
+            "annotation": "unity: assert less than hex16 message",
             "contents": "TEST_ASSERT_LESS_THAN_HEX16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "alth16m"
+            "trigger": "alth16m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than hex32 message",
+            "annotation": "unity: assert less than hex32 message",
             "contents": "TEST_ASSERT_LESS_THAN_HEX32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "alth32m"
+            "trigger": "alth32m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than hex64 message",
+            "annotation": "unity: assert less than hex64 message",
             "contents": "TEST_ASSERT_LESS_THAN_HEX64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "alth64m"
+            "trigger": "alth64m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than char message",
+            "annotation": "unity: assert less than char message",
             "contents": "TEST_ASSERT_LESS_THAN_CHAR_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "altcm"
+            "trigger": "altcm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal message",
+            "annotation": "unity: assert greater or equal message",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agoem"
+            "trigger": "agoem",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal int message",
+            "annotation": "unity: assert greater or equal int message",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_INT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agoeim"
+            "trigger": "agoeim",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal int8 message",
+            "annotation": "unity: assert greater or equal int8 message",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_INT8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agoei8m"
+            "trigger": "agoei8m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal int16 message",
+            "annotation": "unity: assert greater or equal int16 message",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_INT16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agoei16m"
+            "trigger": "agoei16m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal int32 message",
+            "annotation": "unity: assert greater or equal int32 message",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_INT32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agoei32m"
+            "trigger": "agoei32m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal int64 message",
+            "annotation": "unity: assert greater or equal int64 message",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_INT64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agoei64m"
+            "trigger": "agoei64m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal uint message",
+            "annotation": "unity: assert greater or equal uint message",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_UINT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agoeum"
+            "trigger": "agoeum",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal uint8 message",
+            "annotation": "unity: assert greater or equal uint8 message",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_UINT8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agoeu8m"
+            "trigger": "agoeu8m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal uint16 message",
+            "annotation": "unity: assert greater or equal uint16 message",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_UINT16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agoeu16m"
+            "trigger": "agoeu16m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal uint32 message",
+            "annotation": "unity: assert greater or equal uint32 message",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_UINT32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agoeu32m"
+            "trigger": "agoeu32m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal uint64 message",
+            "annotation": "unity: assert greater or equal uint64 message",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_UINT64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agoeu64m"
+            "trigger": "agoeu64m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal size_t message",
+            "annotation": "unity: assert greater or equal size_t message",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_size_t_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agoeszm"
+            "trigger": "agoeszm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal hex8 message",
+            "annotation": "unity: assert greater or equal hex8 message",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_HEX8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agoeh8m"
+            "trigger": "agoeh8m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal hex16 message",
+            "annotation": "unity: assert greater or equal hex16 message",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_HEX16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agoeh16m"
+            "trigger": "agoeh16m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal hex32 message",
+            "annotation": "unity: assert greater or equal hex32 message",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_HEX32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agoeh32m"
+            "trigger": "agoeh32m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal hex64 message",
+            "annotation": "unity: assert greater or equal hex64 message",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_HEX64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agoeh64m"
+            "trigger": "agoeh64m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal char message",
+            "annotation": "unity: assert greater or equal char message",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_CHAR_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agoecm"
+            "trigger": "agoecm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal message",
+            "annotation": "unity: assert less or equal message",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aloem"
+            "trigger": "aloem",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal int message",
+            "annotation": "unity: assert less or equal int message",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_INT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aloeim"
+            "trigger": "aloeim",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal int8 message",
+            "annotation": "unity: assert less or equal int8 message",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_INT8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aloei8m"
+            "trigger": "aloei8m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal int16 message",
+            "annotation": "unity: assert less or equal int16 message",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_INT16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aloei16m"
+            "trigger": "aloei16m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal int32 message",
+            "annotation": "unity: assert less or equal int32 message",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_INT32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aloei32m"
+            "trigger": "aloei32m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal int64 message",
+            "annotation": "unity: assert less or equal int64 message",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_INT64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aloei64m"
+            "trigger": "aloei64m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal uint message",
+            "annotation": "unity: assert less or equal uint message",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_UINT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aloeum"
+            "trigger": "aloeum",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal uint8 message",
+            "annotation": "unity: assert less or equal uint8 message",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_UINT8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aloeu8m"
+            "trigger": "aloeu8m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal uint16 message",
+            "annotation": "unity: assert less or equal uint16 message",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_UINT16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aloeu16m"
+            "trigger": "aloeu16m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal uint32 message",
+            "annotation": "unity: assert less or equal uint32 message",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_UINT32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aloeu32m"
+            "trigger": "aloeu32m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal uint64 message",
+            "annotation": "unity: assert less or equal uint64 message",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_UINT64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aloeu64m"
+            "trigger": "aloeu64m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal size_t message",
+            "annotation": "unity: assert less or equal size_t message",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_size_t_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aloeszm"
+            "trigger": "aloeszm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal hex8 message",
+            "annotation": "unity: assert less or equal hex8 message",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_HEX8_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aloeh8m"
+            "trigger": "aloeh8m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal hex16 message",
+            "annotation": "unity: assert less or equal hex16 message",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_HEX16_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aloeh16m"
+            "trigger": "aloeh16m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal hex32 message",
+            "annotation": "unity: assert less or equal hex32 message",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_HEX32_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aloeh32m"
+            "trigger": "aloeh32m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal hex64 message",
+            "annotation": "unity: assert less or equal hex64 message",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_HEX64_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aloeh64m"
+            "trigger": "aloeh64m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal char message",
+            "annotation": "unity: assert less or equal char message",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_CHAR_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aloecm"
+            "trigger": "aloecm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert int within message",
+            "annotation": "unity: assert int within message",
             "contents": "TEST_ASSERT_INT_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aiwm"
+            "trigger": "aiwm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert int8 within message",
+            "annotation": "unity: assert int8 within message",
             "contents": "TEST_ASSERT_INT8_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "ai8wm"
+            "trigger": "ai8wm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert int16 within message",
+            "annotation": "unity: assert int16 within message",
             "contents": "TEST_ASSERT_INT16_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "ai16wm"
+            "trigger": "ai16wm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert int32 within message",
+            "annotation": "unity: assert int32 within message",
             "contents": "TEST_ASSERT_INT32_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "ai32wm"
+            "trigger": "ai32wm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert int64 within message",
+            "annotation": "unity: assert int64 within message",
             "contents": "TEST_ASSERT_INT64_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "ai64wm"
+            "trigger": "ai64wm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert uint within message",
+            "annotation": "unity: assert uint within message",
             "contents": "TEST_ASSERT_UINT_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "auwm"
+            "trigger": "auwm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert uint8 within message",
+            "annotation": "unity: assert uint8 within message",
             "contents": "TEST_ASSERT_UINT8_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "au8wm"
+            "trigger": "au8wm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert uint16 within message",
+            "annotation": "unity: assert uint16 within message",
             "contents": "TEST_ASSERT_UINT16_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "au16wm"
+            "trigger": "au16wm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert uint32 within message",
+            "annotation": "unity: assert uint32 within message",
             "contents": "TEST_ASSERT_UINT32_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "au32wm"
+            "trigger": "au32wm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert uint64 within message",
+            "annotation": "unity: assert uint64 within message",
             "contents": "TEST_ASSERT_UINT64_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "au64wm"
+            "trigger": "au64wm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert size_t within message",
+            "annotation": "unity: assert size_t within message",
             "contents": "TEST_ASSERT_size_t_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aszwm"
+            "trigger": "aszwm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert hex within message",
+            "annotation": "unity: assert hex within message",
             "contents": "TEST_ASSERT_HEX_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "ahwm"
+            "trigger": "ahwm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert hex8 within message",
+            "annotation": "unity: assert hex8 within message",
             "contents": "TEST_ASSERT_HEX8_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "ah8wm"
+            "trigger": "ah8wm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert hex16 within message",
+            "annotation": "unity: assert hex16 within message",
             "contents": "TEST_ASSERT_HEX16_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "ah16wm"
+            "trigger": "ah16wm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert hex32 within message",
+            "annotation": "unity: assert hex32 within message",
             "contents": "TEST_ASSERT_HEX32_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "ah32wm"
+            "trigger": "ah32wm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert hex64 within message",
+            "annotation": "unity: assert hex64 within message",
             "contents": "TEST_ASSERT_HEX64_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "ah64wm"
+            "trigger": "ah64wm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert char within message",
+            "annotation": "unity: assert char within message",
             "contents": "TEST_ASSERT_CHAR_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "acwm"
+            "trigger": "acwm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert int array within message",
+            "annotation": "unity: assert int array within message",
             "contents": "TEST_ASSERT_INT_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
-            "kind": "snippet",
-            "trigger": "aiawm"
+            "trigger": "aiawm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert int8 array within message",
+            "annotation": "unity: assert int8 array within message",
             "contents": "TEST_ASSERT_INT8_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
-            "kind": "snippet",
-            "trigger": "ai8awm"
+            "trigger": "ai8awm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert int16 array within message",
+            "annotation": "unity: assert int16 array within message",
             "contents": "TEST_ASSERT_INT16_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
-            "kind": "snippet",
-            "trigger": "ai16awm"
+            "trigger": "ai16awm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert int32 array within message",
+            "annotation": "unity: assert int32 array within message",
             "contents": "TEST_ASSERT_INT32_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
-            "kind": "snippet",
-            "trigger": "ai32awm"
+            "trigger": "ai32awm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert int64 array within message",
+            "annotation": "unity: assert int64 array within message",
             "contents": "TEST_ASSERT_INT64_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
-            "kind": "snippet",
-            "trigger": "ai64awm"
+            "trigger": "ai64awm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert uint array within message",
+            "annotation": "unity: assert uint array within message",
             "contents": "TEST_ASSERT_UINT_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
-            "kind": "snippet",
-            "trigger": "auawm"
+            "trigger": "auawm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert uint8 array within message",
+            "annotation": "unity: assert uint8 array within message",
             "contents": "TEST_ASSERT_UINT8_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
-            "kind": "snippet",
-            "trigger": "au8awm"
+            "trigger": "au8awm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert uint16 array within message",
+            "annotation": "unity: assert uint16 array within message",
             "contents": "TEST_ASSERT_UINT16_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
-            "kind": "snippet",
-            "trigger": "au16awm"
+            "trigger": "au16awm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert uint32 array within message",
+            "annotation": "unity: assert uint32 array within message",
             "contents": "TEST_ASSERT_UINT32_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
-            "kind": "snippet",
-            "trigger": "au32awm"
+            "trigger": "au32awm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert uint64 array within message",
+            "annotation": "unity: assert uint64 array within message",
             "contents": "TEST_ASSERT_UINT64_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
-            "kind": "snippet",
-            "trigger": "au64awm"
+            "trigger": "au64awm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert size_t array within message",
+            "annotation": "unity: assert size_t array within message",
             "contents": "TEST_ASSERT_size_t_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
-            "kind": "snippet",
-            "trigger": "aszawm"
+            "trigger": "aszawm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert hex array within message",
+            "annotation": "unity: assert hex array within message",
             "contents": "TEST_ASSERT_HEX_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
-            "kind": "snippet",
-            "trigger": "ahawm"
+            "trigger": "ahawm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert hex8 array within message",
+            "annotation": "unity: assert hex8 array within message",
             "contents": "TEST_ASSERT_HEX8_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
-            "kind": "snippet",
-            "trigger": "ah8awm"
+            "trigger": "ah8awm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert hex16 array within message",
+            "annotation": "unity: assert hex16 array within message",
             "contents": "TEST_ASSERT_HEX16_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
-            "kind": "snippet",
-            "trigger": "ah16awm"
+            "trigger": "ah16awm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert hex32 array within message",
+            "annotation": "unity: assert hex32 array within message",
             "contents": "TEST_ASSERT_HEX32_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
-            "kind": "snippet",
-            "trigger": "ah32awm"
+            "trigger": "ah32awm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert hex64 array within message",
+            "annotation": "unity: assert hex64 array within message",
             "contents": "TEST_ASSERT_HEX64_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
-            "kind": "snippet",
-            "trigger": "ah64awm"
+            "trigger": "ah64awm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert char array within message",
+            "annotation": "unity: assert char array within message",
             "contents": "TEST_ASSERT_CHAR_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, \"${5:message}\");",
-            "kind": "snippet",
-            "trigger": "acawm"
+            "trigger": "acawm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal ptr message",
+            "annotation": "unity: assert equal ptr message",
             "contents": "TEST_ASSERT_EQUAL_PTR_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aepm"
+            "trigger": "aepm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal string message",
+            "annotation": "unity: assert equal string message",
             "contents": "TEST_ASSERT_EQUAL_STRING_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aesm"
+            "trigger": "aesm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal string len message",
+            "annotation": "unity: assert equal string len message",
             "contents": "TEST_ASSERT_EQUAL_STRING_LEN_MESSAGE(${1:expected}, ${2:actual}, ${3:len}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeslm"
+            "trigger": "aeslm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal memory message",
+            "annotation": "unity: assert equal memory message",
             "contents": "TEST_ASSERT_EQUAL_MEMORY_MESSAGE(${1:expected}, ${2:actual}, ${3:len}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aemm"
+            "trigger": "aemm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal int array message",
+            "annotation": "unity: assert equal int array message",
             "contents": "TEST_ASSERT_EQUAL_INT_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeiam"
+            "trigger": "aeiam",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal int8 array message",
+            "annotation": "unity: assert equal int8 array message",
             "contents": "TEST_ASSERT_EQUAL_INT8_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aei8am"
+            "trigger": "aei8am",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal int16 array message",
+            "annotation": "unity: assert equal int16 array message",
             "contents": "TEST_ASSERT_EQUAL_INT16_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aei16am"
+            "trigger": "aei16am",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal int32 array message",
+            "annotation": "unity: assert equal int32 array message",
             "contents": "TEST_ASSERT_EQUAL_INT32_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aei32am"
+            "trigger": "aei32am",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal int64 array message",
+            "annotation": "unity: assert equal int64 array message",
             "contents": "TEST_ASSERT_EQUAL_INT64_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aei64am"
+            "trigger": "aei64am",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal uint array message",
+            "annotation": "unity: assert equal uint array message",
             "contents": "TEST_ASSERT_EQUAL_UINT_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeuam"
+            "trigger": "aeuam",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal uint8 array message",
+            "annotation": "unity: assert equal uint8 array message",
             "contents": "TEST_ASSERT_EQUAL_UINT8_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeu8am"
+            "trigger": "aeu8am",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal uint16 array message",
+            "annotation": "unity: assert equal uint16 array message",
             "contents": "TEST_ASSERT_EQUAL_UINT16_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeu16am"
+            "trigger": "aeu16am",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal uint32 array message",
+            "annotation": "unity: assert equal uint32 array message",
             "contents": "TEST_ASSERT_EQUAL_UINT32_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeu32am"
+            "trigger": "aeu32am",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal uint64 array message",
+            "annotation": "unity: assert equal uint64 array message",
             "contents": "TEST_ASSERT_EQUAL_UINT64_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeu64am"
+            "trigger": "aeu64am",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal size_t array message",
+            "annotation": "unity: assert equal size_t array message",
             "contents": "TEST_ASSERT_EQUAL_size_t_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeszam"
+            "trigger": "aeszam",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal hex array message",
+            "annotation": "unity: assert equal hex array message",
             "contents": "TEST_ASSERT_EQUAL_HEX_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeham"
+            "trigger": "aeham",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal hex8 array message",
+            "annotation": "unity: assert equal hex8 array message",
             "contents": "TEST_ASSERT_EQUAL_HEX8_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeh8am"
+            "trigger": "aeh8am",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal hex16 array message",
+            "annotation": "unity: assert equal hex16 array message",
             "contents": "TEST_ASSERT_EQUAL_HEX16_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeh16am"
+            "trigger": "aeh16am",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal hex32 array message",
+            "annotation": "unity: assert equal hex32 array message",
             "contents": "TEST_ASSERT_EQUAL_HEX32_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeh32am"
+            "trigger": "aeh32am",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal hex64 array message",
+            "annotation": "unity: assert equal hex64 array message",
             "contents": "TEST_ASSERT_EQUAL_HEX64_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeh64am"
+            "trigger": "aeh64am",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal ptr array message",
+            "annotation": "unity: assert equal ptr array message",
             "contents": "TEST_ASSERT_EQUAL_PTR_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aepam"
+            "trigger": "aepam",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal string array message",
+            "annotation": "unity: assert equal string array message",
             "contents": "TEST_ASSERT_EQUAL_STRING_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aesam"
+            "trigger": "aesam",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal memory array message",
+            "annotation": "unity: assert equal memory array message",
             "contents": "TEST_ASSERT_EQUAL_MEMORY_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:len}, ${4:num_elements}, \"${5:message}\");",
-            "kind": "snippet",
-            "trigger": "aemam"
+            "trigger": "aemam",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal char array message",
+            "annotation": "unity: assert equal char array message",
             "contents": "TEST_ASSERT_EQUAL_CHAR_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aecam"
+            "trigger": "aecam",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal int message",
+            "annotation": "unity: assert each equal int message",
             "contents": "TEST_ASSERT_EACH_EQUAL_INT_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeeim"
+            "trigger": "aeeim",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal int8 message",
+            "annotation": "unity: assert each equal int8 message",
             "contents": "TEST_ASSERT_EACH_EQUAL_INT8_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeei8m"
+            "trigger": "aeei8m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal int16 message",
+            "annotation": "unity: assert each equal int16 message",
             "contents": "TEST_ASSERT_EACH_EQUAL_INT16_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeei16m"
+            "trigger": "aeei16m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal int32 message",
+            "annotation": "unity: assert each equal int32 message",
             "contents": "TEST_ASSERT_EACH_EQUAL_INT32_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeei32m"
+            "trigger": "aeei32m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal int64 message",
+            "annotation": "unity: assert each equal int64 message",
             "contents": "TEST_ASSERT_EACH_EQUAL_INT64_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeei64m"
+            "trigger": "aeei64m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal uint message",
+            "annotation": "unity: assert each equal uint message",
             "contents": "TEST_ASSERT_EACH_EQUAL_UINT_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeeum"
+            "trigger": "aeeum",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal uint8 message",
+            "annotation": "unity: assert each equal uint8 message",
             "contents": "TEST_ASSERT_EACH_EQUAL_UINT8_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeeu8m"
+            "trigger": "aeeu8m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal uint16 message",
+            "annotation": "unity: assert each equal uint16 message",
             "contents": "TEST_ASSERT_EACH_EQUAL_UINT16_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeeu16m"
+            "trigger": "aeeu16m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal uint32 message",
+            "annotation": "unity: assert each equal uint32 message",
             "contents": "TEST_ASSERT_EACH_EQUAL_UINT32_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeeu32m"
+            "trigger": "aeeu32m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal uint64 message",
+            "annotation": "unity: assert each equal uint64 message",
             "contents": "TEST_ASSERT_EACH_EQUAL_UINT64_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeeu64m"
+            "trigger": "aeeu64m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal size_t message",
+            "annotation": "unity: assert each equal size_t message",
             "contents": "TEST_ASSERT_EACH_EQUAL_size_t_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeeszm"
+            "trigger": "aeeszm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal hex message",
+            "annotation": "unity: assert each equal hex message",
             "contents": "TEST_ASSERT_EACH_EQUAL_HEX_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeehm"
+            "trigger": "aeehm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal hex8 message",
+            "annotation": "unity: assert each equal hex8 message",
             "contents": "TEST_ASSERT_EACH_EQUAL_HEX8_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeeh8m"
+            "trigger": "aeeh8m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal hex16 message",
+            "annotation": "unity: assert each equal hex16 message",
             "contents": "TEST_ASSERT_EACH_EQUAL_HEX16_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeeh16m"
+            "trigger": "aeeh16m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal hex32 message",
+            "annotation": "unity: assert each equal hex32 message",
             "contents": "TEST_ASSERT_EACH_EQUAL_HEX32_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeeh32m"
+            "trigger": "aeeh32m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal hex64 message",
+            "annotation": "unity: assert each equal hex64 message",
             "contents": "TEST_ASSERT_EACH_EQUAL_HEX64_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeeh64m"
+            "trigger": "aeeh64m",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal ptr message",
+            "annotation": "unity: assert each equal ptr message",
             "contents": "TEST_ASSERT_EACH_EQUAL_PTR_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeepm"
+            "trigger": "aeepm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal string message",
+            "annotation": "unity: assert each equal string message",
             "contents": "TEST_ASSERT_EACH_EQUAL_STRING_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeesm"
+            "trigger": "aeesm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal memory message",
+            "annotation": "unity: assert each equal memory message",
             "contents": "TEST_ASSERT_EACH_EQUAL_MEMORY_MESSAGE(${1:expected}, ${2:actual}, ${3:len}, ${4:num_elements}, \"${5:message}\");",
-            "kind": "snippet",
-            "trigger": "aeemm"
+            "trigger": "aeemm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal char message",
+            "annotation": "unity: assert each equal char message",
             "contents": "TEST_ASSERT_EACH_EQUAL_CHAR_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeecm"
+            "trigger": "aeecm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert float within message",
+            "annotation": "unity: assert float within message",
             "contents": "TEST_ASSERT_FLOAT_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "afwm"
+            "trigger": "afwm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal float message",
+            "annotation": "unity: assert equal float message",
             "contents": "TEST_ASSERT_EQUAL_FLOAT_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aefm"
+            "trigger": "aefm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal float message",
+            "annotation": "unity: assert not equal float message",
             "contents": "TEST_ASSERT_NOT_EQUAL_FLOAT_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "anefm"
+            "trigger": "anefm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal float array message",
+            "annotation": "unity: assert equal float array message",
             "contents": "TEST_ASSERT_EQUAL_FLOAT_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aefam"
+            "trigger": "aefam",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal float message",
+            "annotation": "unity: assert each equal float message",
             "contents": "TEST_ASSERT_EACH_EQUAL_FLOAT_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeefm"
+            "trigger": "aeefm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than float message",
+            "annotation": "unity: assert greater than float message",
             "contents": "TEST_ASSERT_GREATER_THAN_FLOAT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agtfm"
+            "trigger": "agtfm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal float message",
+            "annotation": "unity: assert greater or equal float message",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_FLOAT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agoefm"
+            "trigger": "agoefm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than float message",
+            "annotation": "unity: assert less than float message",
             "contents": "TEST_ASSERT_LESS_THAN_FLOAT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "altfm"
+            "trigger": "altfm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal float message",
+            "annotation": "unity: assert less or equal float message",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_FLOAT_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aloefm"
+            "trigger": "aloefm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert float is inf message",
+            "annotation": "unity: assert float is inf message",
             "contents": "TEST_ASSERT_FLOAT_IS_INF_MESSAGE(${1:actual}, \"${2:message}\");",
-            "kind": "snippet",
-            "trigger": "afiim"
+            "trigger": "afiim",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert float is neg inf message",
+            "annotation": "unity: assert float is neg inf message",
             "contents": "TEST_ASSERT_FLOAT_IS_NEG_INF_MESSAGE(${1:actual}, \"${2:message}\");",
-            "kind": "snippet",
-            "trigger": "afinim"
+            "trigger": "afinim",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert float is nan message",
+            "annotation": "unity: assert float is nan message",
             "contents": "TEST_ASSERT_FLOAT_IS_NAN_MESSAGE(${1:actual}, \"${2:message}\");",
-            "kind": "snippet",
-            "trigger": "afinm"
+            "trigger": "afinm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert float is determinate message",
+            "annotation": "unity: assert float is determinate message",
             "contents": "TEST_ASSERT_FLOAT_IS_DETERMINATE_MESSAGE(${1:actual}, \"${2:message}\");",
-            "kind": "snippet",
-            "trigger": "afidm"
+            "trigger": "afidm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert float is not inf message",
+            "annotation": "unity: assert float is not inf message",
             "contents": "TEST_ASSERT_FLOAT_IS_NOT_INF_MESSAGE(${1:actual}, \"${2:message}\");",
-            "kind": "snippet",
-            "trigger": "afinim"
+            "trigger": "afinim",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert float is not neg inf message",
+            "annotation": "unity: assert float is not neg inf message",
             "contents": "TEST_ASSERT_FLOAT_IS_NOT_NEG_INF_MESSAGE(${1:actual}, \"${2:message}\");",
-            "kind": "snippet",
-            "trigger": "afinnim"
+            "trigger": "afinnim",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert float is not nan message",
+            "annotation": "unity: assert float is not nan message",
             "contents": "TEST_ASSERT_FLOAT_IS_NOT_NAN_MESSAGE(${1:actual}, \"${2:message}\");",
-            "kind": "snippet",
-            "trigger": "afinnm"
+            "trigger": "afinnm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert float is not determinate message",
+            "annotation": "unity: assert float is not determinate message",
             "contents": "TEST_ASSERT_FLOAT_IS_NOT_DETERMINATE_MESSAGE(${1:actual}, \"${2:message}\");",
-            "kind": "snippet",
-            "trigger": "afindm"
+            "trigger": "afindm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert double within message",
+            "annotation": "unity: assert double within message",
             "contents": "TEST_ASSERT_DOUBLE_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "adwm"
+            "trigger": "adwm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal double message",
+            "annotation": "unity: assert equal double message",
             "contents": "TEST_ASSERT_EQUAL_DOUBLE_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aedm"
+            "trigger": "aedm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal double message",
+            "annotation": "unity: assert not equal double message",
             "contents": "TEST_ASSERT_NOT_EQUAL_DOUBLE_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "anedm"
+            "trigger": "anedm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal double array message",
+            "annotation": "unity: assert equal double array message",
             "contents": "TEST_ASSERT_EQUAL_DOUBLE_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aedam"
+            "trigger": "aedam",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert each equal double message",
+            "annotation": "unity: assert each equal double message",
             "contents": "TEST_ASSERT_EACH_EQUAL_DOUBLE_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, \"${4:message}\");",
-            "kind": "snippet",
-            "trigger": "aeedm"
+            "trigger": "aeedm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater than double message",
+            "annotation": "unity: assert greater than double message",
             "contents": "TEST_ASSERT_GREATER_THAN_DOUBLE_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agtdm"
+            "trigger": "agtdm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert greater or equal double message",
+            "annotation": "unity: assert greater or equal double message",
             "contents": "TEST_ASSERT_GREATER_OR_EQUAL_DOUBLE_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "agoedm"
+            "trigger": "agoedm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less than double message",
+            "annotation": "unity: assert less than double message",
             "contents": "TEST_ASSERT_LESS_THAN_DOUBLE_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "altdm"
+            "trigger": "altdm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert less or equal double message",
+            "annotation": "unity: assert less or equal double message",
             "contents": "TEST_ASSERT_LESS_OR_EQUAL_DOUBLE_MESSAGE(${1:threshold}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aloedm"
+            "trigger": "aloedm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert double is inf message",
+            "annotation": "unity: assert double is inf message",
             "contents": "TEST_ASSERT_DOUBLE_IS_INF_MESSAGE(${1:actual}, \"${2:message}\");",
-            "kind": "snippet",
-            "trigger": "adiim"
+            "trigger": "adiim",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert double is neg inf message",
+            "annotation": "unity: assert double is neg inf message",
             "contents": "TEST_ASSERT_DOUBLE_IS_NEG_INF_MESSAGE(${1:actual}, \"${2:message}\");",
-            "kind": "snippet",
-            "trigger": "adinim"
+            "trigger": "adinim",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert double is nan message",
+            "annotation": "unity: assert double is nan message",
             "contents": "TEST_ASSERT_DOUBLE_IS_NAN_MESSAGE(${1:actual}, \"${2:message}\");",
-            "kind": "snippet",
-            "trigger": "adinm"
+            "trigger": "adinm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert double is determinate message",
+            "annotation": "unity: assert double is determinate message",
             "contents": "TEST_ASSERT_DOUBLE_IS_DETERMINATE_MESSAGE(${1:actual}, \"${2:message}\");",
-            "kind": "snippet",
-            "trigger": "adidm"
+            "trigger": "adidm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert double is not inf message",
+            "annotation": "unity: assert double is not inf message",
             "contents": "TEST_ASSERT_DOUBLE_IS_NOT_INF_MESSAGE(${1:actual}, \"${2:message}\");",
-            "kind": "snippet",
-            "trigger": "adinim"
+            "trigger": "adinim",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert double is not neg inf message",
+            "annotation": "unity: assert double is not neg inf message",
             "contents": "TEST_ASSERT_DOUBLE_IS_NOT_NEG_INF_MESSAGE(${1:actual}, \"${2:message}\");",
-            "kind": "snippet",
-            "trigger": "adinnim"
+            "trigger": "adinnim",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert double is not nan message",
+            "annotation": "unity: assert double is not nan message",
             "contents": "TEST_ASSERT_DOUBLE_IS_NOT_NAN_MESSAGE(${1:actual}, \"${2:message}\");",
-            "kind": "snippet",
-            "trigger": "adinnm"
+            "trigger": "adinnm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert double is not determinate message",
+            "annotation": "unity: assert double is not determinate message",
             "contents": "TEST_ASSERT_DOUBLE_IS_NOT_DETERMINATE_MESSAGE(${1:actual}, \"${2:message}\");",
-            "kind": "snippet",
-            "trigger": "adindm"
+            "trigger": "adindm",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert equal message",
+            "annotation": "unity: assert equal message",
             "contents": "TEST_ASSERT_EQUAL_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aem"
+            "trigger": "aem",
+            "kind": "snippet"
         },
         {
-            "annotation": "Unity: assert not equal message",
+            "annotation": "unity: assert not equal message",
             "contents": "TEST_ASSERT_NOT_EQUAL_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "anem"
-        },
-        {
-            "annotation": "Unity: assert equal message",
-            "contents": "TEST_ASSERT_EQUAL_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "aem"
-        },
-        {
-            "annotation": "Unity: assert not equal message",
-            "contents": "TEST_ASSERT_NOT_EQUAL_MESSAGE(${1:expected}, ${2:actual}, \"${3:message}\");",
-            "kind": "snippet",
-            "trigger": "anem"
+            "trigger": "anem",
+            "kind": "snippet"
         }
-    ],
-    "scope": "(source.c | source.c++ | source.c99) (meta.function & meta.block)"
+    ]
 }
