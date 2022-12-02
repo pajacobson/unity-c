@@ -1,7 +1,7 @@
 # Unity - Unit Testing For C - Autocompletion
 
 
-Sublime Text 4 autocompletion package for [Unity - Unit Testing For C (Especially Embedded Software)](http://www.throwtheswitch.org/unity).
+Sublime Text autocompletion package for [Unity - Unit Testing For C (Especially Embedded Software)](http://www.throwtheswitch.org/unity).
 
 
 ## Unity Completions
