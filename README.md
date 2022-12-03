@@ -3,6 +3,16 @@
 
 Sublime Text autocompletion package for [Unity - Unit Testing For C (Especially Embedded Software)](http://www.throwtheswitch.org/unity).
 
+## Installation
+The preferred method of installing the `Unity - Unit Testing for C` Autocompletion package is using [Package Control](https://packagecontrol.io/installation).
+
+With Package Control installed:
+- Open the command palette
+- Select `Package Control: Install Packages`
+- Type `Unity Test C` to narrow down the selection
+- Click the package listing to install.
+
+When you launch Sublime Text, it will pick up the contents of this package.
 
 ## Unity Completions
 
