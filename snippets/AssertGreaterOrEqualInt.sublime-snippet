@@ -3,6 +3,6 @@
 TEST_ASSERT_GREATER_OR_EQUAL_INT(${1:threshold}, ${2:actual});
 ]]></content>
 <tabTrigger>agoei</tabTrigger>
-<scope>(source.c | source.c++ | source.c99) (meta.function & meta.block)</scope>
+<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
 <description>Assert Greater Or Equal Int</description>
 </snippet>

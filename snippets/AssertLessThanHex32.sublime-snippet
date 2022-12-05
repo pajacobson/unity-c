@@ -3,6 +3,6 @@
 TEST_ASSERT_LESS_THAN_HEX32(${1:threshold}, ${2:actual});
 ]]></content>
 <tabTrigger>alth32</tabTrigger>
-<scope>(source.c | source.c++ | source.c99) (meta.function & meta.block)</scope>
+<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
 <description>Assert Less Than Hex32</description>
 </snippet>

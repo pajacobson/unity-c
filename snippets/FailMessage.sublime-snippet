@@ -3,6 +3,6 @@
 TEST_FAIL_MESSAGE("${1:message}");
 ]]></content>
 <tabTrigger>fam</tabTrigger>
-<scope>(source.c | source.c++ | source.c99) (meta.function & meta.block)</scope>
+<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
 <description>Fail Message</description>
 </snippet>

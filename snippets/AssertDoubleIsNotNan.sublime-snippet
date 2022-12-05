@@ -3,6 +3,6 @@
 TEST_ASSERT_DOUBLE_IS_NOT_NAN(${1:actual});
 ]]></content>
 <tabTrigger>adinn</tabTrigger>
-<scope>(source.c | source.c++ | source.c99) (meta.function & meta.block)</scope>
+<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
 <description>Assert Double Is Not Nan</description>
 </snippet>

@@ -3,6 +3,6 @@
 TEST_ASSERT_LESS_OR_EQUAL_UINT(${1:threshold}, ${2:actual});
 ]]></content>
 <tabTrigger>aloeu</tabTrigger>
-<scope>(source.c | source.c++ | source.c99) (meta.function & meta.block)</scope>
+<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
 <description>Assert Less Or Equal Uint</description>
 </snippet>

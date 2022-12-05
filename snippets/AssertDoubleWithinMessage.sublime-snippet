@@ -3,6 +3,6 @@
 TEST_ASSERT_DOUBLE_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, "${4:message}");
 ]]></content>
 <tabTrigger>adwm</tabTrigger>
-<scope>(source.c | source.c++ | source.c99) (meta.function & meta.block)</scope>
+<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
 <description>Assert Double Within Message</description>
 </snippet>

@@ -3,6 +3,6 @@
 TEST_ASSERT_DOUBLE_IS_NOT_DETERMINATE(${1:actual});
 ]]></content>
 <tabTrigger>adind</tabTrigger>
-<scope>(source.c | source.c++ | source.c99) (meta.function & meta.block)</scope>
+<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
 <description>Assert Double Is Not Determinate</description>
 </snippet>

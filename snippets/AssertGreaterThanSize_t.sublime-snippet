@@ -3,6 +3,6 @@
 TEST_ASSERT_GREATER_THAN_size_t(${1:threshold}, ${2:actual});
 ]]></content>
 <tabTrigger>agtsz</tabTrigger>
-<scope>(source.c | source.c++ | source.c99) (meta.function & meta.block)</scope>
+<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
 <description>Assert Greater Than Size_t</description>
 </snippet>

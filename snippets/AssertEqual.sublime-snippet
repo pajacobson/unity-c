@@ -3,6 +3,6 @@
 TEST_ASSERT_EQUAL(${1:expected}, ${2:actual});
 ]]></content>
 <tabTrigger>ae</tabTrigger>
-<scope>(source.c | source.c++ | source.c99) (meta.function & meta.block)</scope>
+<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
 <description>Assert Equal</description>
 </snippet>

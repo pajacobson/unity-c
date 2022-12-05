@@ -3,6 +3,6 @@
 TEST_ASSERT_GREATER_THAN_HEX16(${1:threshold}, ${2:actual});
 ]]></content>
 <tabTrigger>agth16</tabTrigger>
-<scope>(source.c | source.c++ | source.c99) (meta.function & meta.block)</scope>
+<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
 <description>Assert Greater Than Hex16</description>
 </snippet>

@@ -3,6 +3,6 @@
 TEST_ASSERT_FLOAT_IS_NEG_INF(${1:actual});
 ]]></content>
 <tabTrigger>afini</tabTrigger>
-<scope>(source.c | source.c++ | source.c99) (meta.function & meta.block)</scope>
+<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
 <description>Assert Float Is Neg Inf</description>
 </snippet>

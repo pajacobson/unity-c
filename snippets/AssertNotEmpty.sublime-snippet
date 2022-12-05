@@ -3,6 +3,6 @@
 TEST_ASSERT_NOT_EMPTY(${1:pointer});
 ]]></content>
 <tabTrigger>ane</tabTrigger>
-<scope>(source.c | source.c++ | source.c99) (meta.function & meta.block)</scope>
+<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
 <description>Assert Not Empty</description>
 </snippet>

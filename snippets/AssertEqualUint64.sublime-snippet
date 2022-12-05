@@ -3,6 +3,6 @@
 TEST_ASSERT_EQUAL_UINT64(${1:expected}, ${2:actual});
 ]]></content>
 <tabTrigger>aeu64</tabTrigger>
-<scope>(source.c | source.c++ | source.c99) (meta.function & meta.block)</scope>
+<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
 <description>Assert Equal Uint64</description>
 </snippet>

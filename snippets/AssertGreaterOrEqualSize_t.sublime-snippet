@@ -3,6 +3,6 @@
 TEST_ASSERT_GREATER_OR_EQUAL_size_t(${1:threshold}, ${2:actual});
 ]]></content>
 <tabTrigger>agoesz</tabTrigger>
-<scope>(source.c | source.c++ | source.c99) (meta.function & meta.block)</scope>
+<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
 <description>Assert Greater Or Equal Size_t</description>
 </snippet>

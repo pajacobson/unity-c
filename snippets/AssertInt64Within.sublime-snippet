@@ -3,6 +3,6 @@
 TEST_ASSERT_INT64_WITHIN(${1:delta}, ${2:expected}, ${3:actual});
 ]]></content>
 <tabTrigger>ai64w</tabTrigger>
-<scope>(source.c | source.c++ | source.c99) (meta.function & meta.block)</scope>
+<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
 <description>Assert Int64 Within</description>
 </snippet>

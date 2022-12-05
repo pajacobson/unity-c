@@ -3,6 +3,6 @@
 TEST_ASSERT_EACH_EQUAL_MEMORY_MESSAGE(${1:expected}, ${2:actual}, ${3:len}, ${4:num_elements}, "${5:message}");
 ]]></content>
 <tabTrigger>aeemm</tabTrigger>
-<scope>(source.c | source.c++ | source.c99) (meta.function & meta.block)</scope>
+<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
 <description>Assert Each Equal Memory Message</description>
 </snippet>

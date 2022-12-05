@@ -3,6 +3,6 @@
 TEST_ASSERT_EACH_EQUAL_CHAR(${1:expected}, ${2:actual}, ${3:num_elements});
 ]]></content>
 <tabTrigger>aeec</tabTrigger>
-<scope>(source.c | source.c++ | source.c99) (meta.function & meta.block)</scope>
+<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
 <description>Assert Each Equal Char</description>
 </snippet>

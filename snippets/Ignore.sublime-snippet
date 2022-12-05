@@ -3,6 +3,6 @@
 TEST_IGNORE();
 ]]></content>
 <tabTrigger>ig</tabTrigger>
-<scope>(source.c | source.c++ | source.c99) (meta.function & meta.block)</scope>
+<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
 <description>Ignore</description>
 </snippet>

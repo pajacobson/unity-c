@@ -3,6 +3,6 @@
 TEST_ASSERT_size_t_WITHIN(${1:delta}, ${2:expected}, ${3:actual});
 ]]></content>
 <tabTrigger>aszw</tabTrigger>
-<scope>(source.c | source.c++ | source.c99) (meta.function & meta.block)</scope>
+<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
 <description>Assert Size_t Within</description>
 </snippet>

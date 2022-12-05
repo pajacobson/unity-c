@@ -3,6 +3,6 @@
 TEST_ASSERT_BITS(${1:mask}, ${2:expected}, ${3:actual});
 ]]></content>
 <tabTrigger>ab</tabTrigger>
-<scope>(source.c | source.c++ | source.c99) (meta.function & meta.block)</scope>
+<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
 <description>Assert Bits</description>
 </snippet>

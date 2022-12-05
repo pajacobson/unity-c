@@ -3,6 +3,6 @@
 TEST_ASSERT_EQUAL_STRING_ARRAY_MESSAGE(${1:expected}, ${2:actual}, ${3:num_elements}, "${4:message}");
 ]]></content>
 <tabTrigger>aesam</tabTrigger>
-<scope>(source.c | source.c++ | source.c99) (meta.function & meta.block)</scope>
+<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
 <description>Assert Equal String Array Message</description>
 </snippet>

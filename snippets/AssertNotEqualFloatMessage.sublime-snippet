@@ -3,6 +3,6 @@
 TEST_ASSERT_NOT_EQUAL_FLOAT_MESSAGE(${1:expected}, ${2:actual}, "${3:message}");
 ]]></content>
 <tabTrigger>anefm</tabTrigger>
-<scope>(source.c | source.c++ | source.c99) (meta.function & meta.block)</scope>
+<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
 <description>Assert Not Equal Float Message</description>
 </snippet>

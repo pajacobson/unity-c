@@ -3,6 +3,6 @@
 TEST_ASSERT_INT32_ARRAY_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, ${4:num_elements}, "${5:message}");
 ]]></content>
 <tabTrigger>ai32awm</tabTrigger>
-<scope>(source.c | source.c++ | source.c99) (meta.function & meta.block)</scope>
+<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
 <description>Assert Int32 Array Within Message</description>
 </snippet>
