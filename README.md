@@ -1,20 +1,23 @@
 # Unity Test Completions
 
 
-Sublime Text autocompletion package for [Unity - Unit Testing For C (Especially Embedded Software)](http://www.throwtheswitch.org/unity).
+Sublime Text completions package for [Unity - Unit Testing For C (Especially Embedded Software)](http://www.throwtheswitch.org/unity).
+
 
 ## Installation
-The preferred method of installing the `Unity - Unit Testing for C` Autocompletion package is using [Package Control](https://packagecontrol.io/installation).
+The preferred method of installing the `Unity Test Completions` completion package is using [Package Control](https://packagecontrol.io/installation).
 
 With Package Control installed:
 - Open the command palette
 - Select `Package Control: Install Packages`
-- Type `Unity Test C` to narrow down the selection
+- Type `Unity Test Completions` to narrow down the selection
 - Click the package listing to install.
 
 When you launch Sublime Text, it will pick up the contents of this package.
 
 ## Unity Completions
+
+https://github.com/ThrowTheSwitch/Unity/blob/master/docs/UnityAssertionsReference.md
 
 Unity `test assert` snippets are active when the caret is positioned within a function body .
 
