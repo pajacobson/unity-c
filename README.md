@@ -5,6 +5,7 @@ Sublime Text completions package for [Unity - Unit Testing For C (Especially Emb
 
 
 ## Installation
+
 The preferred method of installing the `Unity Test Completions` package is using [Package Control](https://packagecontrol.io/installation).
 
 With Package Control installed: 
@@ -18,8 +19,6 @@ When you launch Sublime Text, it will pick up the contents of this package.
 
 ## Unity Completions
 
-All assertions documented in the [Unity Assertions Reference](https://github.com/ThrowTheSwitch/Unity/blob/master/docs/UnityAssertionsReference.md) are available as completions in base and message forms.
-
 Unity completions are scope sensitive and require use of a `C` syntax that correctly identifies function blocks.
 
 The snippets are known to work with:
@@ -27,7 +26,6 @@ The snippets are known to work with:
 - Built-in Sublime Text `C` syntax
 - [C99](https://packagecontrol.io/packages/C99)
 - [C Improved](https://packagecontrol.io/packages/C%20Improved)
-
 
 Unity `test assert` snippets are active when the caret is positioned within a function body .
 
@@ -37,8 +35,13 @@ With few exceptions the trigger is the first letter of each word in the name, ig
 Note that abbreviations can resolve to more than one snippet.
 `aem` is used for `assert_empty_message`, `assert_equal_message` and `assert_equal_memory`.
 
+## Available Completions
+The package provides 467 completions for Unity covering base and message variations. 
+
+The [Unity Assertions Reference](https://github.com/ThrowTheSwitch/Unity/blob/master/docs/UnityAssertionsReference.md) provides a detailed reference to the assertions.  
 
 #### Basic fail and ignore
+
 | Shortcut  | Assertion |
 |:--|:--|
 | `pa` | `TEST_PASS` |
