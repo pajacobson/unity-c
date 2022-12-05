@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+TEST_ASSERT_INT8_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, "${4:message}");
+]]></content>
+<tabTrigger>ai8wm</tabTrigger>
+<scope>(source.c | source.c++ | source.c99) (meta.function & meta.block)</scope>
+<description>Assert Int8 Within Message</description>
+</snippet>

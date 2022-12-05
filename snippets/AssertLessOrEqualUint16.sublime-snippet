@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+TEST_ASSERT_LESS_OR_EQUAL_UINT16(${1:threshold}, ${2:actual});
+]]></content>
+<tabTrigger>aloeu16</tabTrigger>
+<scope>(source.c | source.c++ | source.c99) (meta.function & meta.block)</scope>
+<description>Assert Less Or Equal Uint16</description>
+</snippet>
