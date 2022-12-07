@@ -27,16 +27,33 @@ The snippets are known to work with:
 - [C99](https://packagecontrol.io/packages/C99)
 - [C Improved](https://packagecontrol.io/packages/C%20Improved)
 
+
+### Unit Test Function Templates
+
+Unit test method function templates are active when the caret is outside a function body.
+
+| Shortcut | Assertion |
+|:--|:--|
+| `test` | test_function_should template |
+| `testw` | test_function_should_when template |
+| `testi` | test_function_should template with TEST_IGNORE(message) |
+| `testf` | test_function_should template with TEST_FAIL(message) |
+
+
+### Unity Assert Completions
+
 Unity `test assert` snippets are active when the caret is positioned within a function body .
 
 Snippets are triggered by abbreviation of the assert name.
-With few exceptions the trigger is the first letter of each word in the name, ignoring the test prefix.
+With the exception of the "fail and ignore" completions the trigger is the first letter of each word in the name, ignoring the test prefix.
 
-Note that abbreviations can resolve to more than one snippet.
-`aem` is used for `assert_empty_message`, `assert_equal_message` and `assert_equal_memory`.
+Note that abbreviations can resolve to more than one snippet.  
+For example `aem` is used for `assert_empty_message`, `assert_equal_message` and `assert_equal_memory`.
 
 ## Available Completions
-The package provides 467 completions for Unity covering base and message variations. 
+The package provides:
+- 467 completions for Unity covering base and message variations, and
+- four test function templates
 
 The [Unity Assertions Reference](https://github.com/ThrowTheSwitch/Unity/blob/master/docs/UnityAssertionsReference.md) provides a detailed reference to the assertions.  
 
