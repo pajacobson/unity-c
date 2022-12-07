@@ -3,6 +3,6 @@
 TEST_ASSERT_LESS_THAN_INT64(${1:threshold}, ${2:actual});
 ]]></content>
 <tabTrigger>alti64</tabTrigger>
-<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
+<scope>(source.c | source.c99) & meta.function.c & meta.block.c</scope>
 <description>Assert Less Than Int64</description>
 </snippet>

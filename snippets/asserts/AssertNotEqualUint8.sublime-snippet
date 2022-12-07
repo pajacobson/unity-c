@@ -3,6 +3,6 @@
 TEST_ASSERT_NOT_EQUAL_UINT8(${1:threshold}, ${2:actual});
 ]]></content>
 <tabTrigger>aneu8</tabTrigger>
-<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
+<scope>(source.c | source.c99) & meta.function.c & meta.block.c</scope>
 <description>Assert Not Equal Uint8</description>
 </snippet>

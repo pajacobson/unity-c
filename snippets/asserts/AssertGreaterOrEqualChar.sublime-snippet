@@ -3,6 +3,6 @@
 TEST_ASSERT_GREATER_OR_EQUAL_CHAR(${1:threshold}, ${2:actual});
 ]]></content>
 <tabTrigger>agoec</tabTrigger>
-<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
+<scope>(source.c | source.c99) & meta.function.c & meta.block.c</scope>
 <description>Assert Greater Or Equal Char</description>
 </snippet>

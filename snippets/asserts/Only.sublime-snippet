@@ -3,6 +3,6 @@
 TEST_ONLY();
 ]]></content>
 <tabTrigger>on</tabTrigger>
-<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
+<scope>(source.c | source.c99) & meta.function.c & meta.block.c</scope>
 <description>Only</description>
 </snippet>

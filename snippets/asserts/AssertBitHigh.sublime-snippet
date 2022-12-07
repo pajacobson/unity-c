@@ -3,6 +3,6 @@
 TEST_ASSERT_BIT_HIGH(${1:bit}, ${2:actual});
 ]]></content>
 <tabTrigger>abh</tabTrigger>
-<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
+<scope>(source.c | source.c99) & meta.function.c & meta.block.c</scope>
 <description>Assert Bit High</description>
 </snippet>

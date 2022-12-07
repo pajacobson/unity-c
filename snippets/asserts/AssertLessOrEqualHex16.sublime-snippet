@@ -3,6 +3,6 @@
 TEST_ASSERT_LESS_OR_EQUAL_HEX16(${1:threshold}, ${2:actual});
 ]]></content>
 <tabTrigger>aloeh16</tabTrigger>
-<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
+<scope>(source.c | source.c99) & meta.function.c & meta.block.c</scope>
 <description>Assert Less Or Equal Hex16</description>
 </snippet>

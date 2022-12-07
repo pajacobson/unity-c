@@ -8,5 +8,5 @@ void test_${1:function}_should_${2:behavior}_when_${3:condition}(void)
 ]]></content>
     <tabTrigger>testw</tabTrigger>
     <scope>(source.c | source.c++ | source.c99) - meta.function.c</scope>
-    <description>Unity Test Function Should When</description>
+    <description>Test Function Should When</description>
 </snippet>

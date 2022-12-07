@@ -3,6 +3,6 @@
 TEST_ASSERT_GREATER_THAN_INT32(${1:threshold}, ${2:actual});
 ]]></content>
 <tabTrigger>agti32</tabTrigger>
-<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
+<scope>(source.c | source.c99) & meta.function.c & meta.block.c</scope>
 <description>Assert Greater Than Int32</description>
 </snippet>

@@ -3,6 +3,6 @@
 TEST_ASSERT_EQUAL_FLOAT(${1:expected}, ${2:actual});
 ]]></content>
 <tabTrigger>aef</tabTrigger>
-<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
+<scope>(source.c | source.c99) & meta.function.c & meta.block.c</scope>
 <description>Assert Equal Float</description>
 </snippet>

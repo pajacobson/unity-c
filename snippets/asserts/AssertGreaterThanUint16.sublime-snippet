@@ -3,6 +3,6 @@
 TEST_ASSERT_GREATER_THAN_UINT16(${1:threshold}, ${2:actual});
 ]]></content>
 <tabTrigger>agtu16</tabTrigger>
-<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
+<scope>(source.c | source.c99) & meta.function.c & meta.block.c</scope>
 <description>Assert Greater Than Uint16</description>
 </snippet>

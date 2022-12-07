@@ -3,6 +3,6 @@
 TEST_ASSERT_DOUBLE_IS_NOT_NEG_INF(${1:actual});
 ]]></content>
 <tabTrigger>adinni</tabTrigger>
-<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
+<scope>(source.c | source.c99) & meta.function.c & meta.block.c</scope>
 <description>Assert Double Is Not Neg Inf</description>
 </snippet>

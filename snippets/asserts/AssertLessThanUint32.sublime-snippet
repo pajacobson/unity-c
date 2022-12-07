@@ -3,6 +3,6 @@
 TEST_ASSERT_LESS_THAN_UINT32(${1:threshold}, ${2:actual});
 ]]></content>
 <tabTrigger>altu32</tabTrigger>
-<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
+<scope>(source.c | source.c99) & meta.function.c & meta.block.c</scope>
 <description>Assert Less Than Uint32</description>
 </snippet>

@@ -3,6 +3,6 @@
 TEST_ASSERT_LESS_OR_EQUAL_UINT16(${1:threshold}, ${2:actual});
 ]]></content>
 <tabTrigger>aloeu16</tabTrigger>
-<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
+<scope>(source.c | source.c99) & meta.function.c & meta.block.c</scope>
 <description>Assert Less Or Equal Uint16</description>
 </snippet>

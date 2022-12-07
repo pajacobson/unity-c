@@ -3,6 +3,6 @@
 TEST_ASSERT_EQUAL_STRING_LEN(${1:expected}, ${2:actual}, ${3:len});
 ]]></content>
 <tabTrigger>aesl</tabTrigger>
-<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
+<scope>(source.c | source.c99) & meta.function.c & meta.block.c</scope>
 <description>Assert Equal String Len</description>
 </snippet>

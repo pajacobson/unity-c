@@ -3,6 +3,6 @@
 TEST_ASSERT_INT_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, "${4:message}");
 ]]></content>
 <tabTrigger>aiwm</tabTrigger>
-<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
+<scope>(source.c | source.c99) & meta.function.c & meta.block.c</scope>
 <description>Assert Int Within Message</description>
 </snippet>

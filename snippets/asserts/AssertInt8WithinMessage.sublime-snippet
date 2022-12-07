@@ -3,6 +3,6 @@
 TEST_ASSERT_INT8_WITHIN_MESSAGE(${1:delta}, ${2:expected}, ${3:actual}, "${4:message}");
 ]]></content>
 <tabTrigger>ai8wm</tabTrigger>
-<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
+<scope>(source.c | source.c99) & meta.function.c & meta.block.c</scope>
 <description>Assert Int8 Within Message</description>
 </snippet>

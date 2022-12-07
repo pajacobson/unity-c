@@ -3,6 +3,6 @@
 TEST_ASSERT_UNLESS_MESSAGE(${1:condition}, "${2:message}");
 ]]></content>
 <tabTrigger>aum</tabTrigger>
-<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
+<scope>(source.c | source.c99) & meta.function.c & meta.block.c</scope>
 <description>Assert Unless Message</description>
 </snippet>

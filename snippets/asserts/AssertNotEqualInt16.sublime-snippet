@@ -3,6 +3,6 @@
 TEST_ASSERT_NOT_EQUAL_INT16(${1:threshold}, ${2:actual});
 ]]></content>
 <tabTrigger>anei16</tabTrigger>
-<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
+<scope>(source.c | source.c99) & meta.function.c & meta.block.c</scope>
 <description>Assert Not Equal Int16</description>
 </snippet>

@@ -3,6 +3,6 @@
 TEST_ASSERT_DOUBLE_IS_NAN_MESSAGE(${1:actual}, "${2:message}");
 ]]></content>
 <tabTrigger>adinm</tabTrigger>
-<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
+<scope>(source.c | source.c99) & meta.function.c & meta.block.c</scope>
 <description>Assert Double Is Nan Message</description>
 </snippet>

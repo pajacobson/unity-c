@@ -3,6 +3,6 @@
 TEST_ASSERT_GREATER_OR_EQUAL_HEX64(${1:threshold}, ${2:actual});
 ]]></content>
 <tabTrigger>agoeh64</tabTrigger>
-<scope>(source.c | source.c99) meta.function.c meta.block.c</scope>
+<scope>(source.c | source.c99) & meta.function.c & meta.block.c</scope>
 <description>Assert Greater Or Equal Hex64</description>
 </snippet>
