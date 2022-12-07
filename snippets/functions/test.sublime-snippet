@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+void test_${1:function}_should_${2:behavior}(void)
+{
+	${0}
+}
+
+]]></content>
+    <tabTrigger>test</tabTrigger>
+    <scope>(source.c | source.c++ | source.c99) - meta.function.c</scope>
+    <description>Unity Test Function Should</description>
+</snippet>
